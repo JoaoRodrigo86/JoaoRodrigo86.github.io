@@ -1,1 +1,1 @@
-### Olá, sou joão e sou :poop:
+### Olá, sou joão e sou lindo

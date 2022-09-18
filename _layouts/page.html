@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Normal initialization -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>{{ page.title }}</title>
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+</head>
+<body>
+    <!-- Add the header -->
+    {%- include header.html -%}
+
+    <!-- Now for the page content -->
+    <div id="page-container">
+        {{ content }}
+    </div>
+</body>
+</html>
+
+<script>
+    const DEFAULT_HUE = 54;
+
+    // Get the saved preference
+    let theme = sessionStorage.getItem('theme');
+    theme = ( theme ) ? theme : DEFAULT_HUE;
+
+    document.body.style.setProperty('--accent-color', `hsl(${theme},97%,53%)`);
+
+    if ( "{{ page.url }}" == '/' ) {
+        document.getElementById(`hue-${theme}`).classList.add('picked-hue');
+        ee1();
+    }
+</script>

@@ -1,0 +1,25 @@
+---
+layout: page
+---
+<link rel="stylesheet" href="/css/pages/home.css">
+<script src="/js/home.js"></script>
+
+<div id="color-picker">
+    <table class="tableslider">
+        <tbody>
+            <tr>
+                {% for c in (0..255) %}
+                    <td id="hue-{{ c }}" style="background-color:hsl( {{ c }} ,100%,50%); height:25px; padding:0;" onmouseenter="clickHue({{ c }})"></td>
+                {% endfor %}
+            </tr>
+        </tbody>
+    </table>
+</div>
+<span id="latest-change">Última atualização: {{ "now" | date: "%d/%m/%Y" }}</span>
+<div id="intro-message">
+    <p>{{content}}</p>
+</div>
+<p id="credits">
+    Design: João Carvalho <br id="credits-line-break"><span id="credits-dash">-</span>
+    Programação: <a href="https://ldkid.github.io/">Flávio Ferreira</a>
+</p>

@@ -1,0 +1,82 @@
+#page-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact-intro {
+    text-align: center;
+    width: 100%;
+    margin-top: 26px;
+    margin-bottom: 22px;
+}
+#contact-intro > * {
+    font-size: 27px;
+    margin: 0;
+}
+#link-block, #form-container {
+    width: 100%;
+    margin-left: 20px;
+}
+#link-block h2 {
+    font-size: 28px;
+    padding-left: 7px;
+    margin: 0;
+}
+.link-container {
+    margin-bottom: 45px;
+}
+.link-container > a {
+    padding-left: 0;
+}
+.link-container > a > svg  {
+    aspect-ratio: 1;
+    height: 63px;
+}
+
+
+input:not([type=submit]), textarea {
+    width: 90%;
+}
+input, textarea {
+    margin-bottom: 14px;
+}
+input[type=submit] {
+    float: right;
+    margin-right: 10%;
+}
+form {
+    margin-bottom: 160px;
+}
+
+
+@media screen and (min-width: 800px) {
+    #contact-intro {
+        margin-top: 60px;
+        flex-basis: 100%;
+        flex-shrink: 0;
+    }
+    #contact-intro > * {
+        font-size: 80px;
+    }
+    #link-block h2 {
+        font-size: 60px;
+    }
+    .link-container > a > svg  {
+        height: 105px;
+    }
+    #link-block, #form-container {
+        width: 45%;
+    }
+    .link-container {
+        margin-bottom: 45px;
+    }
+    input, textarea {
+        float: right;
+        margin-bottom: 28px;
+    }
+    form {
+        margin-bottom: 0;
+    }
+    input[type=submit] {
+        margin-right: 0;
+    }
+}

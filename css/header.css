@@ -1,0 +1,172 @@
+:root {
+  /*  */
+  --header-width: 400px;
+}
+
+
+header {
+  /*  */
+  width: var(--header-width);
+  background-color: var(--accent-color);
+  position: fixed;
+  height: 6em;
+  overflow: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+body.ee1 header {
+  -webkit-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
+}
+header.open {
+  height: 100%;
+}
+#page-container {
+  /*  */
+  margin-left: var(--header-width);
+}
+
+header > * {
+  /*  */
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+
+#header-title {
+  /*  */
+  font-size: 50px;
+  /* text-align: left; */
+  /* padding-left: 5px; */
+}
+#header-title > img {
+  height: 50px;
+  width: 50px;
+  /* position: absolute;
+  top: 30px;
+  right: 5px; */
+  vertical-align: middle;
+}
+
+#header-title > * {
+  /*  */
+  font-size: inherit;
+  display: inline-block;
+}
+
+
+#header-extra-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+#header-extra-info > span {
+  font-size: 20px;
+}
+#header-extra-info * {
+  font-size: 15px;
+}
+#header-extra-info a {
+  color: var(--foreground-color);
+  text-decoration: none;
+}
+#header-extra-info a:hover {
+  color: var(--background-color);
+}
+
+
+
+@media screen and (min-width: 800px) {
+  header {
+    height: 100%;
+  }
+  #header-title {
+    font-size: 60px;
+  }
+  #header-extra-info {
+    display: none;
+  }
+  #header-title > img {
+    display: none;
+  }
+  nav {
+    padding-bottom: 7vh;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Sidebar links */
+header > nav > a {
+  display: block;
+  color: var(--foreground-color);
+  padding: 16px;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 800px) {
+  header {
+    width: 100%;
+    position: relative;
+  }
+
+  #page-container {
+    margin-left: 0;
+  }
+
+  header a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+
+
+@media screen and (max-width: 350px) {
+  header {
+    height: 5em;
+  }
+  #header-title {
+    font-size: 40px;
+  }
+  #header-title > img {
+    height: 40px;
+    width: 40px;
+  }
+  header > nav > a {
+    font-size: 40px;
+  }
+}
+
+
+
+header a {
+  text-decoration: none;
+  color: var(--foreground-color);
+}
+header a:hover {
+  text-decoration: none;
+  color: var(--background-color);
+}
+
+header a.active::before {
+  height: 1em;
+  width: 15px;
+  background-color: var(--foreground-color);
+  content: " ";
+  position: absolute;
+  left: 0;
+}

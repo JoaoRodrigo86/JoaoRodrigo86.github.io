@@ -1,0 +1,107 @@
+body {
+    background-image: url("/assets/imgs/background.png");
+    background-size: auto 115%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-origin: content-box;
+    background-attachment: fixed;
+    -webkit-transition: background-image 1s ease-in-out;
+    transition: background-image 1s ease-in-out;
+}
+body.ee1 {
+    background-image: url("/assets/imgs/ee1.png");
+}
+#page-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: calc( 100% - 5em );
+}
+
+#color-picker {
+    order: 0;
+    width: 100%;
+    margin: 10px;
+}
+#color-picker > * {
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#intro-message {
+    order: 1;
+    font-size: 55px;
+    padding-left: 20px;
+}
+#intro-message > p {
+    width: 55%;
+}
+
+#latest-change {
+    width: 100%;
+    order: 2;
+    align-self: flex-end;
+    font-size: 20px;
+    text-align: center;
+}
+#credits {
+    width: 100%;
+    order: 3;
+    font-size: 15px;
+    text-align: center;
+}
+#credits-dash {
+    display: none;
+}
+
+.tableslider {
+    width: 100%;
+    border-collapse: collapse;
+}
+.picked-hue::after {
+    user-select: none;
+    -webkit-user-select: none;
+    text-align: center;
+    display: block;
+    position: absolute;
+    padding-top: 16px;
+    margin-left: -11px;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25.293' height='16.182' viewBox='0 0 25.293 16.182'%3E%3Cg id='Group_225' data-name='Group 225' transform='translate(1763.967 -1472.295) rotate(90)'%3E%3Cpath id='Path_680' data-name='Path 680' d='M1498.623,1767.5l-10.879-10.879,10.879-10.879' transform='translate(-11.914 -5.298)' fill='none' stroke='%23000' stroke-miterlimit='10' stroke-width='5'/%3E%3C/g%3E%3C/svg%3E%0A" );
+}
+
+
+@media screen and (min-width: 800px) {
+    #page-container {
+        height: 100%;
+        max-height: 100%;
+        overflow: hidden;
+    }
+
+    #color-picker {
+        max-width: 60%;
+    }
+    #latest-change {
+        order: 1;
+        width: 35%;
+        padding: 15px;
+        align-self: flex-start;
+        font-size: 28px;
+    }
+    #intro-message {
+        order: 2;
+        font-size: min(calc( 12vw - 30px ), 200px);
+    }
+    #intro-message > p {
+        width: 85%;
+    }
+    #credits {
+        font-size: 25px;
+    }
+    #credits-line-break {
+        display: none;
+    }
+    #credits-dash {
+        display: inline;
+    }
+    
+}

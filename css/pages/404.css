@@ -1,0 +1,10 @@
+#page-container {
+    position: relative;
+}
+.text-404 {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}

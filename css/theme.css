@@ -1,0 +1,102 @@
+:root {
+    /* Colors */
+    --background-color: #FFFFFF;
+    --foreground-color: #000000;
+    --accent-color: #FCE613;
+    --disabled-color: #B2B2B2;
+    
+}
+body {
+    background-color: var(--background-color);
+}
+
+/***************************************************************************************************************/
+/* FONTS */
+/***************************************************************************************************************/
+@font-face {
+    font-family: April;
+    src: url(../assets/fonts/April-PersonalUse.ttf);
+}
+@font-face {
+    font-family: Badabb;
+    src: url(../assets/fonts/BADABB__.TTF);
+}
+@font-face {
+    font-family: Bauhaus;
+    src: url(../assets/fonts/Bauhaus-93_6274.ttf);
+}
+@font-face {
+    font-family: Broken;
+    src: url(../assets/fonts/BROKEN\ thin\ demo.otf);
+}
+@font-face {
+    font-family: Chunkfive;
+    src: url(../assets/fonts/Chunkfive\ Ex.ttf);
+}
+@font-face {
+    font-family: Demode;
+    src: url(../assets/fonts/Demode.ttf);
+}
+@font-face {
+    font-family: DogicaBold;
+    src: url(../assets/fonts/dogicabold.otf);
+}
+@font-face {
+    font-family: DogicaPixel;
+    src: url(../assets/fonts/dogicapixel.ttf);
+}
+@font-face {
+    font-family: Franchise;
+    src: url(../assets/fonts/Franchise.ttf);
+}
+@font-face {
+    font-family: Golden;
+    src: url(../assets/fonts/Golden_Arrow.ttf);
+}
+@font-face {
+    font-family: Halloween;
+    src: url(../assets/fonts/HallowenInline.ttf);
+}
+@font-face {
+    font-family: London;
+    src: url(../assets/fonts/LondonTwo.ttf);
+}
+@font-face {
+    font-family: MoonBold;
+    src: url(../assets/fonts/Moon2.0-Bold.otf);
+}
+@font-face {
+    font-family: MoonLight;
+    src: url(../assets/fonts/Moon2.0-Light.otf);
+}
+@font-face {
+    font-family: Moon;
+    src: url(../assets/fonts/Moon2.0-Regular.otf);
+}
+@font-face {
+    font-family: Myriad;
+    src: url(../assets/fonts/MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family: Myriad2;
+    src: url(../assets/fonts/MyriadPro-Regular\ 2.otf);
+}
+@font-face {
+    font-family: Myriad3;
+    src: url(../assets/fonts/MyriadPro-Regular\ 3.otf);
+}
+@font-face {
+    font-family: Panama;
+    src: url(../assets/fonts/Panama-Light.otf);
+}
+@font-face {
+    font-family: Quantify;
+    src: url(../assets/fonts/Quantify\ Bold\ v2.6.ttf);
+}
+@font-face {
+    font-family: Queen;
+    src: url(../assets/fonts/Queen\ of\ Clubs.otf);
+}
+* {
+    font-family: London;
+}

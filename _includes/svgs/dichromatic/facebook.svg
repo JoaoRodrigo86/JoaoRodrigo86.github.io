@@ -1,0 +1,15 @@
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117.16 120.33">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: var(--accent-color);
+            }
+        </style>
+    </defs>
+    <title>SVG_Site_JoaoRodrigo</title>
+    <g id="Grupo_381" data-name="Grupo 381">
+        <rect id="Retângulo_652" data-name="Retângulo 652" x="5.66" y="7.98" width="104.37" height="104.37" />
+        <path id="Caminho_749" data-name="Caminho 749" class="cls-1"
+            d="M61.32,85.22l-17.15,0a9.47,9.47,0,0,1-9.45-9.44V44.73a9.47,9.47,0,0,1,9.45-9.44H75.24a9.46,9.46,0,0,1,9.44,9.44V75.8a9.46,9.46,0,0,1-9.44,9.44H69.06V65.43l6.24,0,1.2-7.59H69.05V52.2a2.74,2.74,0,0,1,2.88-2.59h0l4.77-.1c0-2.25,0-4.51.08-6.76H69.05a8.69,8.69,0,0,0-4.51,1.84,9.37,9.37,0,0,0-3.24,6.9c0,2.14,0,4.27,0,6.4H54.91v7.59l6.38,0Q61.32,75.33,61.32,85.22Z" />
+    </g>
+</svg>

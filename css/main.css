@@ -1,0 +1,65 @@
+/* Other initializations */
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+.hidden {
+    display: none !important;
+}
+/**
+ * Reset some basic elements
+ */
+html, body {
+    height: 100%;
+    overscroll-behavior-y: none;
+    overflow: hidden;
+}
+body, header {
+   margin: 0;
+   padding: 0;
+}
+#page-container {
+    overflow: scroll;
+    height: 100%;
+}
+
+
+/***************************************************************************************************************/
+/* FORMS */
+/***************************************************************************************************************/
+input::placeholder, textarea::placeholder {
+    color: var(--disabled-color);
+}
+input, textarea {
+    font-size: 17px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--foreground-color);
+
+    font-family: Helvetica;
+    padding-inline-start: 10px;
+    padding-block: 5px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    color: var(--foreground-color);
+    background-color: var(--accent-color);
+    
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+input[type=button]:disabled, input[type=submit]:disabled, input[type=reset]:disabled {
+    color: var(--disabled-color);
+    background-color: var(--background-color);
+    border-color: var(--foreground-color);
+    cursor: not-allowed;
+}
+textarea {
+    resize: none;
+}
+
+@media screen and (min-width: 800px) {
+    input, textarea {
+        font-size: 43px;
+        padding-inline-start: 20px;
+    }
+}

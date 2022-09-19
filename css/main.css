@@ -1,6 +1,7 @@
 /* Other initializations */
 *, *::after, *::before {
     box-sizing: border-box;
+    font-weight: 400;
 }
 .hidden {
     display: none !important;

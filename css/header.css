@@ -10,7 +10,7 @@ header {
   background-color: var(--accent-color);
   position: fixed;
   height: 6em;
-  overflow: auto;
+  overflow: hidden;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -135,7 +135,7 @@ header > nav > a {
 
 
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 374px) {
   header {
     height: 5em;
   }
@@ -150,7 +150,21 @@ header > nav > a {
     font-size: 40px;
   }
 }
-
+@media screen and (max-width: 297px) {
+  header {
+    height: 4em;
+  }
+  #header-title {
+    font-size: 30px;
+  }
+  #header-title > img {
+    height: 30px;
+    width: 30px;
+  }
+  header > nav > a {
+    font-size: 30px;
+  }
+}
 
 
 header a {

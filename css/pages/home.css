@@ -26,6 +26,29 @@ body.ee1 {
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
+    touch-action: none;
+}
+.tableslider {
+    width: 100%;
+    border-collapse: collapse;
+}
+.color-row > td {
+    height:25px;
+    padding:0;
+}
+.selector-row > td {
+    height:35px;
+    padding:0;
+}
+.picked-hue::after {
+    user-select: none;
+    -webkit-user-select: none;
+    text-align: center;
+    display: block;
+    position: absolute;
+    padding-top: 16px;
+    margin-left: -11px;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25.293' height='16.182' viewBox='0 0 25.293 16.182'%3E%3Cg id='Group_225' data-name='Group 225' transform='translate(1763.967 -1472.295) rotate(90)'%3E%3Cpath id='Path_680' data-name='Path 680' d='M1498.623,1767.5l-10.879-10.879,10.879-10.879' transform='translate(-11.914 -5.298)' fill='none' stroke='%23000' stroke-miterlimit='10' stroke-width='5'/%3E%3C/g%3E%3C/svg%3E%0A" );
 }
 
 #intro-message {
@@ -54,21 +77,6 @@ body.ee1 {
     display: none;
 }
 
-.tableslider {
-    width: 100%;
-    border-collapse: collapse;
-}
-.picked-hue::after {
-    user-select: none;
-    -webkit-user-select: none;
-    text-align: center;
-    display: block;
-    position: absolute;
-    padding-top: 16px;
-    margin-left: -11px;
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25.293' height='16.182' viewBox='0 0 25.293 16.182'%3E%3Cg id='Group_225' data-name='Group 225' transform='translate(1763.967 -1472.295) rotate(90)'%3E%3Cpath id='Path_680' data-name='Path 680' d='M1498.623,1767.5l-10.879-10.879,10.879-10.879' transform='translate(-11.914 -5.298)' fill='none' stroke='%23000' stroke-miterlimit='10' stroke-width='5'/%3E%3C/g%3E%3C/svg%3E%0A" );
-}
-
 
 @media screen and (min-width: 800px) {
     #page-container {
@@ -89,7 +97,7 @@ body.ee1 {
     }
     #intro-message {
         order: 2;
-        font-size: min(calc( 12vw - 30px ), 200px);
+        font-size: min(calc( 12vw - 30px ), calc( 22vh - 20px ), 200px);
     }
     #intro-message > p {
         width: 85%;

@@ -6,6 +6,6 @@ layout: page
 
 <div class="link-container">
     {%- for item in page.projectos -%}
-        <a href="/projetos/{{ item.nome }}" alt="{{item.nome}}" >{% include {{item.img}} %}</a>
+        <a href="/projetos/{{ item.nome | downcase }}" alt="{{item.nome}}" >{% include {{item.img}} %}</a>
     {%- endfor -%}
 </div>

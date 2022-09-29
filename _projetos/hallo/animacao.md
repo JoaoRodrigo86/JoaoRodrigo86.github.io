@@ -10,14 +10,15 @@
 
 ## Entrevista 2030
 
-![Particulas](/assets/projects/hallo/animacao/logo_particle.mp4)
+![YOUTUBE](https://www.youtube.com/embed/fuJVR-5M34k)
+
 
 ## Logos
 
-![Particulas](/assets/projects/hallo/animacao/logo_particle.mp4)
+![YOUTUBE](https://www.youtube.com/embed/_W10FeDqVc8)
 > Particulas
 
-![Glitch](/assets/projects/hallo/animacao/logo2.mp4)
+![YOUTUBE](https://www.youtube.com/embed/G4rvNnBteOc)
 > Glitch
 
 ## Gif´s

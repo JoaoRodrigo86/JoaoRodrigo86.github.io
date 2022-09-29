@@ -22,7 +22,6 @@ document.addEventListener("touchmove", (event) => {
     }
 });
 
-
 function clickHue( hue, force = false ) {
     if ( !force && !holdingClick ) return;
     
@@ -36,12 +35,5 @@ function clickHue( hue, force = false ) {
         setTimeout( function () {
             ee1();
         }, 5000);
-    }
-}
-
-function ee1() {
-    if ( document.getElementById(`hue-30`).classList.contains('picked-hue') ) {
-        document.body.style.setProperty('--accent-color', `hsl(30,100%,28%)`);
-        document.body.classList.add('ee1');
     }
 }

@@ -23,7 +23,7 @@
 </body>
 </html>
 
-<script>
+<script defer>
     const DEFAULT_HUE = 54;
 
     // Get the saved preference
@@ -36,4 +36,11 @@
         document.getElementById(`hue-${theme}`).classList.add('picked-hue');
         ee1();
     }
+
+    function ee1() {
+    if ( document.getElementById(`hue-30`).classList.contains('picked-hue') ) {
+        document.body.style.setProperty('--accent-color', `hsl(30,100%,28%)`);
+        document.body.classList.add('ee1');
+    }
+}
 </script>

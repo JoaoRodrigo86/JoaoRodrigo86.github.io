@@ -1,0 +1,49 @@
+---
+layout: page
+---
+
+<link rel="stylesheet" href="/css/pages/project.css">
+
+<div id="project-cover">
+    <img src="{{page.background}}" alt="{{page.nome}}">
+    <h1>{{ page.nome }}</h1>
+</div>
+<div id="project-info">
+    <a id="back-link" href="javascript:history.back()" {%- if page.path contains "index.md" -%} class="hidden" {%- endif -%}>{%- include svgs/dichromatic/arrow.svg -%}</a>
+    {%- if page.icon_do_titulo -%}
+        <div class="small-title-icon">{%- include {{page.icon_do_titulo}} -%}</div>
+    {%- endif -%}
+    {{content}}
+</div>
+
+<script>
+    let firstHeader = document.getElementById('project-info').querySelector('h1');
+    firstHeader.style.fontFamily = "{{ page.font_do_titulo }}";
+
+    let allFiles = document.getElementById('project-info').querySelectorAll('img');
+    allFiles.forEach(file => {
+        let fileSrc = file.src;
+        let extension = fileSrc.split('.').reverse()[0];
+        switch (extension) {
+            case "png":
+            case "jpg":
+                break;
+            case "mp4":
+                const VIDEO_EL = document.createElement('video');
+                VIDEO_EL.src = file.src;
+                VIDEO_EL.controls = "controls";
+                file.parentNode.replaceChild(VIDEO_EL, file);
+                break;
+            default:
+                if (file.alt.toLowerCase() == 'youtube') {
+                    const IFRAME_EL = document.createElement('iframe');
+                    IFRAME_EL.src = file.src;
+                    IFRAME_EL.allowFullscreen = "allowFullScreen"
+                    file.parentNode.replaceChild(IFRAME_EL, file);
+                    break;
+                }
+                console.log('Unknown file type: ' + extension);
+                break;
+        }
+    });
+</script>

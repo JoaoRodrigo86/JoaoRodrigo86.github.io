@@ -1,19 +1,20 @@
 ---
 layout: page
+title: João Rodrigo
 ---
 <link rel="stylesheet" href="/css/pages/home.css">
-<script src="/js/home.js" defer></script>
+<script src="/js/pages/home.js" defer></script>
 
 <div id="color-picker">
     <table class="tableslider">
         <tbody>
             <tr class="color-row">
-                {% for c in (0..255) %}
+                {% for c in (0..360) %}
                     <td id="hue-{{ c }}" data-component="color-picker-hue" data-hue="{{ c }}" style="background-color:hsl( {{ c }} ,100%,50%);" onmouseenter="clickHue({{ c }})"></td>
                 {% endfor %}
             </tr>
             <tr class="selector-row">
-                {% for c in (0..255) %}
+                {% for c in (0..360) %}
                     <td id="hue-{{ c }}-selector" data-component="color-picker-hue" data-hue="{{ c }}"  onmouseenter="clickHue({{ c }})"></td>
                 {% endfor %}
             </tr>

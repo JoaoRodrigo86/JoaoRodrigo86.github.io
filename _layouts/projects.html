@@ -1,0 +1,11 @@
+---
+layout: page
+---
+
+<link rel="stylesheet" href="/css/pages/projects.css">
+
+<div class="link-container">
+    {%- for item in page.projectos -%}
+        <a href="/projetos/{{ item.nome }}" alt="{{item.nome}}" >{% include {{item.img}} %}</a>
+    {%- endfor -%}
+</div>

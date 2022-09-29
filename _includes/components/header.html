@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="/css/header.css"> <!-- Import the header's CSS -->
+<script src="/js/header.js" defer></script>
+
+<header id="navbar-header">
+    <div id="header-title">
+        <h1><a href="/">João Rodrigo</a></h1>
+        <img id="header-down-arrow" onclick="openHeader();" src="/assets/svgs/icons/down_arrow.svg">
+        <img id="header-up-arrow" onclick="closeHeader();" class="hidden" src="/assets/svgs/icons/up_arrow.svg">
+    </div>
+    <nav>
+        {%- assign cut_url = page.url | split: '/' -%}
+        <a href="/informacao" {% if cut_url[1] == "informacao" %} class="active" {% endif %}>Informação</a>
+        <a href="/trabalhos" {% if cut_url[1] == "trabalhos" %} class="active" {% endif %}>Trabalhos</a>
+        <a href="/projetos" {% if cut_url[1] == "projetos" %} class="active" {% endif %}>Projetos</a>
+        <a href="/contactos" {% if cut_url[1] == "contactos" or cut_url[1] == "obrigado" %} class="active" {% endif %}>Contactos</a>
+    </nav>
+    <div id="header-extra-info">
+        <span>Última atualização: {{ "now" | date: "%d/%m/%Y" }}</span>
+        <p>
+            Design: João Carvalho <br>
+            Programação: <a href="https://ldkid.github.io/" target="_blank">Flávio Ferreira</a>
+        </p>
+    </div>
+</header>

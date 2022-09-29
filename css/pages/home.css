@@ -35,6 +35,7 @@ body.ee1 {
 .color-row > td {
     height:25px;
     padding:0;
+    position: relative;
 }
 .selector-row > td {
     height:35px;

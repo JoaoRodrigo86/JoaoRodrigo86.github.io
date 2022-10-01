@@ -6,7 +6,7 @@
     font_do_titulo: Badabb
 ---
 
-# Halo Onig
+# Hallo Onig
 
 Este projeto consistiu na criação e desenvolvimento da personagem fictícia chamada Hallo, no qual é um extraterrestre, com a sua cor base, verde. Com um estilo de ilustração animado, desenvolve-se assim um projeto que tem como objetivo a criação de um Ícone.
 

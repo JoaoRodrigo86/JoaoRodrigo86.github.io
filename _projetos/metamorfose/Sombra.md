@@ -2,7 +2,7 @@
     layout: project
     icon: /projects/metamorfose/A-47.svg
     nome: E.Metamorfose
-    background: /assets/projects/porto_days/Porto_Days.jpg
+    background: /assets/projects/conversas/Conversas_Capa.jpg
     font_do_titulo: Helvetica
 ---
 

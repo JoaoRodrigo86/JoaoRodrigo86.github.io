@@ -25,3 +25,5 @@ defaults:
 collections:
   projetos:
     output: true
+  trabalhos:
+    output: true

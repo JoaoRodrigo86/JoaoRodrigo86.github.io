@@ -1,0 +1,27 @@
+#page-container {
+    --icon-background-color: var(--foreground-color);
+    --icon-foreground-color: var(--accent-color);
+}
+
+#project-cover svg {
+    margin-top: 25px;
+    width: 125px;
+}
+
+@media screen and (min-width: 800px) {
+    #project-cover svg {
+        margin-top: 50px;
+        width: 300px;
+    }
+}
+
+svg .cls-1 {
+    fill: var(--icon-foreground-color);
+}
+svg .cls-2, svg .cls-5 {
+    fill: none;
+    stroke: var(--icon-background-color);
+}
+svg .cls-4 {
+    fill: var(--icon-background-color);
+}

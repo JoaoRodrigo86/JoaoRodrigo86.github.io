@@ -1,0 +1,10 @@
+svg .cls-1 {
+    fill: var(--icon-background-color);
+}
+svg .cls-2, svg .cls-3 {
+    fill: var(--icon-foreground-color);
+}
+svg .cls-4 {
+    fill: none;
+    stroke: var(--icon-foreground-color);
+}

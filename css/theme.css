@@ -14,15 +14,17 @@ body {
 svg .cls-1 {
     fill: var(--icon-background-color);
 }
-
-svg .cls-2 {
+svg .cls-2, svg .cls-4, svg .cls-3 {
     fill: var(--icon-foreground-color);
 }
-svg .cls-3 {
-    fill: var(--icon-background-color);
+svg .cls-s1 {
+    stroke: var(--icon-background-color);
 }
-svg .cls-4 {
-    fill: var(--icon-foreground-color);
+svg .cls-s2 {
+    stroke: var(--icon-foreground-color);
+}
+svg .cls-s3 {
+    stroke: var(--background-color);
 }
 /***************************************************************************************************************/
 /* FONTS */
@@ -113,4 +115,45 @@ svg .cls-4 {
 }
 * {
     font-family: London;
+}
+
+@font-face { /* # */
+    font-family: Artmash;
+    src: url(../assets/fonts/Golden_Arrow.ttf);
+    unicode-range: U+23;
+}
+@font-face { /* a */
+    font-family: Artmash;
+    src: url(../assets/fonts/Chalkboard-01.ttf);
+    unicode-range: U+41;
+}
+@font-face { /* R */
+    font-family: Artmash;
+    src: url(../assets/fonts/Demode.ttf);
+    unicode-range: U+52;
+}
+@font-face { /* T */
+    font-family: Artmash;
+    src: url(../assets/fonts/AmericanTypewriter-01.ttf);
+    unicode-range: U+54;
+}
+@font-face { /* M */
+    font-family: Artmash;
+    src: url(../assets/fonts/BROKEN\ thin\ demo.otf);
+    unicode-range: U+4D;
+}
+@font-face { /* A */
+    font-family: Artmash;
+    src: url(../assets/fonts/LondonEdit.otf);
+    unicode-range: U+61;
+}
+@font-face { /* S */
+    font-family: Artmash;
+    src: url(../assets/fonts/dogicapixel.ttf);
+    unicode-range: U+53;
+}
+@font-face { /* H */
+    font-family: Artmash;
+    src: url(../assets/fonts/HallowenInline.ttf);
+    unicode-range: U+48;
 }

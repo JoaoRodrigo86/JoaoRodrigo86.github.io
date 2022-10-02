@@ -3,10 +3,10 @@
     permalink: /projetos/artmash
     nome: Artmash
     background: /assets/projects/artmash/Artmashcapa.jpg
-    font_do_titulo: Quantify
+    font_do_titulo: Artmash
 ---
 
-# Artmash
+# #aRTMASH
 
 É uma atividade social criada pelo Procreate para os artistas saírem das suas zonas de conforto com 3 “prompts” de desenho semanais aleatórios. ⠀
 Os “prompts” são: um ambiente, uma personagem e um objeto. Os artistas interpretam os “prompts” como quiserem, podem misturar e criar uma história ou apenas poderão escolher um e ilustrar. 

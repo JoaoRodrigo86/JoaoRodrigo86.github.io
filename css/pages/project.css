@@ -35,7 +35,6 @@
 #project-info h2 {
     font-size: 20px;
     text-decoration-line: underline;
-    text-decoration-skip: none;
     text-decoration-style: solid;
     text-decoration-color: var(--accent-color);
     text-decoration-thickness: 3px;
@@ -52,10 +51,6 @@
 .link-container > a > svg  {
     aspect-ratio: 1;
     height: 100px;
-}
-.link-container > a:nth-child(even){
-    --icon-foreground-color: var(--accent-color);
-    --icon-background-color: var(--foreground-color);
 }
 #project-info img,
 #project-info video,
@@ -146,6 +141,7 @@ blockquote :first-child {
     #project-info h2 {
         font-size: 50px;
         text-decoration-thickness: 6px;
+        text-underline-offset: 4px;
     }
     .link-container {
         margin-top: 40px;
@@ -169,5 +165,44 @@ blockquote :first-child {
         font-size: 100px;
         right: 50px;
         bottom: -50px;
+    }
+}
+
+/* COLOR HANDLER */
+/* Magic number for desktop is 206px */
+@media screen and (max-width: 253px),
+(min-width: 357px) and (max-width: 459px),
+(min-width: 564px) and (max-width: 666px),
+(min-width: 771px) and (max-width: 1057px),
+(min-width: 1265px) and (max-width: 1471px),
+(min-width: 1679px) and (max-width: 1885px),
+(min-width: 2093px) {
+    .link-container > a:nth-child(even){
+        --icon-foreground-color: var(--accent-color);
+        --icon-background-color: var(--foreground-color);
+    }
+}
+@media screen and (min-width: 254px) and (max-width: 356px),
+(min-width: 1058px) and (max-width: 1264px) {
+    .link-container > a:nth-child(4n+2),
+    .link-container > a:nth-child(4n+3) {
+        --icon-foreground-color: var(--accent-color);
+        --icon-background-color: var(--foreground-color);
+    }
+}
+@media screen and (min-width: 460px) and (max-width: 563px),
+(min-width: 1472px) and (max-width: 1678px) {
+    .link-container > a:nth-child(8n+2), .link-container > a:nth-child(8n+4),
+    .link-container > a:nth-child(8n+5), .link-container > a:nth-child(8n+7) {
+        --icon-foreground-color: var(--accent-color);
+        --icon-background-color: var(--foreground-color);
+    }
+}
+@media screen and (min-width: 667px) and (max-width: 770px),
+(min-width: 1886px) and (max-width: 2092px) {
+    .link-container > a:nth-child(12n+2), .link-container > a:nth-child(12n+4), .link-container > a:nth-child(12n+6),
+    .link-container > a:nth-child(12n+7), .link-container > a:nth-child(12n+9), .link-container > a:nth-child(12n+11) {
+        --icon-foreground-color: var(--accent-color);
+        --icon-background-color: var(--foreground-color);
     }
 }

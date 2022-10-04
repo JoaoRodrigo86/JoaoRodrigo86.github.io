@@ -7,10 +7,18 @@
 [![Melhor site do mundo](/assets/trabalhos/design/best_site_ever.png)](https://ldkid.github.io/)
 > Site Flávio Ferreira x Flávio Ferreira
 
+![Img1](/assets/trabalhos/design/des1.jpg)
+> "Apresentação do Projeto Final"
+
+![Img2](/assets/trabalhos/design/des2.jpg)
+> "Alinhados"
+
+###### Artigo publicado na revista E-Learning: https://parc.ipp.pt/index.php/elearning/article/view/4262 
+
 
 ![Apple Playlist](/assets/trabalhos/design/applesplaylist.jpg)
-> Capas de Playlist
+> Apple playlist
 
-## Logotipos e símbolos
+## Logotipos 
 &nbsp;
 {%- include /trabalhos/design_icons.svg -%}

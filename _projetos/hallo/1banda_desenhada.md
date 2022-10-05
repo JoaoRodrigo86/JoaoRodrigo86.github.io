@@ -20,11 +20,22 @@ Em Tharhe, Hallo adotou o mesmo estilo de vida como fazia na Terra quando lá ha
 
 {% include components/project_links.md %}
 
-![Img 1](/assets/projects/hallo/bd/1.jpg)
+![Img 1](/assets/projects/hallo/bd/bd1.jpg)
 
-## Spreads
+![Img 2](/assets/projects/hallo/bd/bd2.jpg)
 
-![Img 2](/assets/projects/hallo/bd/2.jpg)
-> Comentário
- 
-###### Remove
+![Img 3](/assets/projects/hallo/bd/bd3.jpg)
+
+![Img 4](/assets/projects/hallo/bd/bd4.jpg)
+
+![Img 5](/assets/projects/hallo/bd/bd5.jpg)
+
+![Img 6](/assets/projects/hallo/bd/bd6.jpg)
+
+![Img 7](/assets/projects/hallo/bd/bd7.jpg)
+
+![Img 8](/assets/projects/hallo/bd/bd8.jpg)
+
+![Img 9](/assets/projects/hallo/bd/bd9.jpg)
+
+![Img 10](/assets/projects/hallo/bd/bd10.jpg)

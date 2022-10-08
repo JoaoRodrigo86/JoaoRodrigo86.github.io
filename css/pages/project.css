@@ -23,7 +23,7 @@
 #project-info p {
     margin-bottom: 0;
 }
-#project-info *:not(h1):not(h2):not(h6):not(svg *) {
+#project-info *:not(h1):not(h2):not(h6):not(svg *):not(a) {
     font-family: Helvetica;
     font-size: 12px;
     font-weight: 300;
@@ -105,6 +105,11 @@ blockquote :first-child {
     font-family: Helvetica;
     color: var(--gray-color);
 }
+#project-info > h6 > a {
+    font-size: 10px;
+    font-family: Helvetica;
+    color: var(--gray-color);
+}
 
 @media screen and (min-width: 800px) {
     #back-link {
@@ -131,7 +136,7 @@ blockquote :first-child {
         margin-left: 125px;
         margin-right: 125px;
     }
-    #project-info *:not(h1):not(h2):not(h6):not(svg *) {
+    #project-info *:not(h1):not(h2):not(h6):not(svg *):not(a) {
         font-family: Helvetica;
         font-size: 26px;
     }
@@ -157,6 +162,9 @@ blockquote :first-child {
     #project-info > h6 {
         font-size: 20px;
         margin-top: -10px;
+    }
+    #project-info > h6 > a {
+        font-size: 20px;
     }
 }
 @media screen and (min-width: 1400px) {

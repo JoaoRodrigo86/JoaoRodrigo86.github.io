@@ -4,7 +4,7 @@ layout: page
 
 <link rel="stylesheet" href="/css/pages/projects.css">
 
-<div class="link-container">
+<div class="big-link-container">
     {%- for item in page.projectos -%}
         <a href="/projetos/{{ item.nome | downcase }}" alt="{{item.nome}}" >{% include {{item.img}} %}</a>
     {%- endfor -%}

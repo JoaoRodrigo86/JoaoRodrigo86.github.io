@@ -1,65 +1,3 @@
-#project-cover {
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-#project-cover > img {
-    width: 110%;
-}
-#project-cover > h1 {
-    position: absolute;
-    bottom: -20px;
-    color: var(--background-color);
-    text-align: center;
-    font-size: 40px;
-}
-#project-info {
-    margin-left: 25px;
-    margin-right: 25px;
-    position: relative;
-}
-#project-info p {
-    margin-bottom: 0;
-}
-#project-info *:not(h1):not(h2):not(h6):not(svg *):not(a) {
-    font-family: Helvetica;
-    font-size: 12px;
-    font-weight: 300;
-}
-#project-info h1 {
-    font-size: 30px;
-    color: var(--dark-gray-color);
-}
-#project-info h2 {
-    font-size: 20px;
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-color: var(--accent-color);
-    text-decoration-thickness: 3px;
-}
-.link-container {
-    margin-top: 20px;
-}
-.link-container > a {
-    display: inline-block;
-    padding-left: 0;
-    --icon-foreground-color: var(--foreground-color);
-    --icon-background-color: var(--accent-color);
-}
-.link-container > a > svg  {
-    aspect-ratio: 1;
-    height: 100px;
-}
-#project-info img,
-#project-info video,
-#project-info iframe {
-    width: 100%;
-}
-#project-info iframe {
-    aspect-ratio: 16/9;
-}
 #back-link {
     position: absolute;
     --icon-background-color: var(--accent-color);
@@ -80,36 +18,6 @@
     --icon-background-color: var(--background-color);
     --icon-foreground-color: var(--accent-color);
 }
-#project-info > h1 {
-    display: inline-block;
-}
-blockquote {
-    border-left: 2px solid var(--accent-color);
-    font-size: 18px;
-    color: var(--gray-color);
-    margin-left: 0;
-    padding-left: 5px;
-    font-family: Myriad;
-    margin-top: 0;
-}
-blockquote > * {
-    font-weight: normal !important;
-}
-blockquote :first-child {
-    margin-top: 0px;
-}
-
-#project-info > h6 {
-    font-size: 10px;
-    margin-top: -5px;
-    font-family: Helvetica;
-    color: var(--gray-color);
-}
-#project-info > h6 > a {
-    font-size: 10px;
-    font-family: Helvetica;
-    color: var(--gray-color);
-}
 
 @media screen and (min-width: 800px) {
     #back-link {
@@ -123,93 +31,49 @@ blockquote :first-child {
         top: 13px;
         padding-right: 10px;
     }
-    #project-cover > img {
-        max-width: 100%;
-    }
-    #project-cover > h1 {
-        text-align: right;
-        font-size: 80px;
-        right: 50px;
-        bottom: -50px;
-    }
-    #project-info {
-        margin-left: 125px;
-        margin-right: 125px;
-    }
-    #project-info *:not(h1):not(h2):not(h6):not(svg *):not(a) {
-        font-family: Helvetica;
-        font-size: 26px;
-    }
-    #project-info h1 {
-        font-size: 80px;
-    }
-    #project-info h2 {
-        font-size: 50px;
-        text-decoration-thickness: 6px;
-        text-underline-offset: 4px;
-    }
-    .link-container {
-        margin-top: 40px;
-    }
-    .link-container > a > svg  {
-        height: 200px;
-    }
-    blockquote {
-        border-left-width: 5px;
-        font-size: 35px;
-        padding-left: 10px;
-    }
-    #project-info > h6 {
-        font-size: 20px;
-        margin-top: -10px;
-    }
-    #project-info > h6 > a {
-        font-size: 20px;
-    }
-}
-@media screen and (min-width: 1400px) {
-    #project-cover > h1 {
-        text-align: right;
-        font-size: 100px;
-        right: 50px;
-        bottom: -50px;
-    }
 }
 
 /* COLOR HANDLER */
 /* Magic number for desktop is 206px */
+
+/* 1057px */
+
+
 @media screen and (max-width: 253px),
 (min-width: 357px) and (max-width: 459px),
 (min-width: 564px) and (max-width: 666px),
-(min-width: 771px) and (max-width: 1057px),
+(min-width: 771px) and (max-width: 799px),
+(min-width: 865px) and (max-width: 1071px),
 (min-width: 1265px) and (max-width: 1471px),
 (min-width: 1679px) and (max-width: 1885px),
 (min-width: 2093px) {
-    .link-container > a:nth-child(even){
+    #page-info:not(.about-page-info) .link-container a:nth-child(even){
         --icon-foreground-color: var(--accent-color);
         --icon-background-color: var(--foreground-color);
     }
 }
 @media screen and (min-width: 254px) and (max-width: 356px),
-(min-width: 1058px) and (max-width: 1264px) {
-    .link-container > a:nth-child(4n+2),
-    .link-container > a:nth-child(4n+3) {
+(min-width: 800px) and (max-width: 864px),
+(min-width: 1201px) and (max-width: 1264px) {
+    #page-info:not(.about-page-info) .link-container a:nth-child(4n+2),
+    #page-info:not(.about-page-info) .link-container a:nth-child(4n+3) {
         --icon-foreground-color: var(--accent-color);
         --icon-background-color: var(--foreground-color);
     }
 }
 @media screen and (min-width: 460px) and (max-width: 563px),
+(min-width: 1072px) and (max-width: 1200px),
 (min-width: 1472px) and (max-width: 1678px) {
-    .link-container > a:nth-child(8n+2), .link-container > a:nth-child(8n+4),
-    .link-container > a:nth-child(8n+5), .link-container > a:nth-child(8n+7) {
+    #page-info:not(.about-page-info) .link-container a:nth-child(8n+2), #page-info:not(.about-page-info) .link-container a:nth-child(8n+4),
+    #page-info:not(.about-page-info) .link-container a:nth-child(8n+5), #page-info:not(.about-page-info) .link-container a:nth-child(8n+7) {
         --icon-foreground-color: var(--accent-color);
         --icon-background-color: var(--foreground-color);
     }
 }
 @media screen and (min-width: 667px) and (max-width: 770px),
 (min-width: 1886px) and (max-width: 2092px) {
-    .link-container > a:nth-child(12n+2), .link-container > a:nth-child(12n+4), .link-container > a:nth-child(12n+6),
-    .link-container > a:nth-child(12n+7), .link-container > a:nth-child(12n+9), .link-container > a:nth-child(12n+11) {
+    #page-info:not(.about-page-info) .link-container a:nth-child(12n+2), #page-info:not(.about-page-info) .link-container a:nth-child(12n+4), #page-info:not(.about-page-info) .link-container a:nth-child(12n+6),
+    #page-info:not(.about-page-info) .link-container a:nth-child(12n+7), #page-info:not(.about-page-info) .link-container a:nth-child(12n+9), #page-info:not(.about-page-info) .link-container a:nth-child(12n+11) {
         --icon-foreground-color: var(--accent-color);
         --icon-background-color: var(--foreground-color);
     }

@@ -21,20 +21,21 @@
     padding-left: 7px;
     margin: 0;
 }
-.link-container {
+#link-block .link-container {
+    margin-top: 0;
     margin-bottom: 45px;
 }
-.link-container > a {
+.link-container a {
     display: inline-block;
     padding-left: 0;
     --icon-foreground-color: var(--foreground-color);
     --icon-background-color: var(--accent-color);
 }
-.link-container > a > svg  {
+.link-container a > svg  {
     aspect-ratio: 1;
     height: 63px;
 }
-.link-container > a:nth-child(even){
+.link-container a:nth-child(even){
     --icon-foreground-color: var(--accent-color);
     --icon-background-color: var(--foreground-color);
 }
@@ -66,7 +67,7 @@ form {
     #link-block h2 {
         font-size: 60px;
     }
-    .link-container > a > svg  {
+    .link-container a > svg  {
         height: 105px;
     }
     #link-block, #form-container {

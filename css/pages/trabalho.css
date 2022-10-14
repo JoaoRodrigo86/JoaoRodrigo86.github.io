@@ -3,13 +3,13 @@
     --icon-foreground-color: var(--accent-color);
 }
 
-#project-cover svg {
+#page-cover svg {
     margin-top: 25px;
     width: 125px;
 }
 
 @media screen and (min-width: 800px) {
-    #project-cover svg {
+    #page-cover svg {
         margin-top: 50px;
         width: 300px;
     }

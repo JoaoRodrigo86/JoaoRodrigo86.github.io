@@ -33,7 +33,7 @@ body, header {
         height: 100%;
     }
 }
-svg {
+svg, .not-link {
     pointer-events: none;
 }
 
@@ -77,4 +77,193 @@ textarea {
         font-size: 43px;
         padding-inline-start: 20px;
     }
+}
+
+
+
+/***************************************************************************************************************/
+/* Image + Title */
+/***************************************************************************************************************/
+
+#page-cover {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-height: 50%;
+}
+#page-cover > img {
+    width: 110%;
+    object-fit: cover;
+}
+#page-cover > h1 {
+    position: absolute;
+    bottom: -20px;
+    color: var(--background-color);
+    text-align: center;
+    font-size: 40px;
+}
+
+@media screen and (min-width: 800px) {
+    #page-cover {
+        max-height: 70%;
+    }
+    #page-cover > img {
+        max-width: 100%;
+    }
+    #page-cover > h1 {
+        text-align: right;
+        font-size: 80px;
+        right: 50px;
+        bottom: -50px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    #page-cover > h1 {
+        text-align: right;
+        font-size: 100px;
+        right: 50px;
+        bottom: -50px;
+    }
+}
+
+/***************************************************************************************************************/
+/* h1, h2, h5, h6, blockquote p */
+/***************************************************************************************************************/
+
+#page-info {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 1em;
+    position: relative;
+}
+#page-info p {
+    margin-bottom: 0;
+}
+#page-info *:not(h1):not(h2):not(h5):not(h6):not(svg *):not(a) {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 300;
+}
+#page-info h1 {
+    font-size: 30px;
+    color: var(--dark-gray-color);
+}
+#page-info h2 {
+    font-size: 20px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: var(--accent-color);
+    text-decoration-thickness: 3px;
+}
+#page-info > h1 {
+    display: inline-block;
+}
+blockquote {
+    border-left: 2px solid var(--accent-color);
+    font-size: 18px;
+    color: var(--gray-color);
+    margin-left: 0;
+    padding-left: 5px;
+    font-family: Myriad;
+    margin-top: 0;
+}
+blockquote > * {
+    font-weight: normal !important;
+}
+blockquote :first-child {
+    margin-top: 0px;
+}
+
+#page-info > h5, #page-info > h6 {
+    font-size: 10px;
+    font-family: Helvetica;
+    color: var(--gray-color);
+}
+#page-info > h5 {
+    margin-top: 0px;
+}
+#page-info > h6 {
+    margin-top: -5px;
+}
+#page-info > h6 > a {
+    font-size: 10px;
+    font-family: Helvetica;
+    color: var(--gray-color);
+}
+@media screen and (min-width: 800px) {
+    #page-info {
+        margin-left: 125px;
+        margin-right: 125px;
+    }
+    #page-info *:not(h1):not(h2):not(h5):not(h6):not(svg *):not(a) {
+        font-family: Helvetica;
+        font-size: 26px;
+    }
+    #page-info h1 {
+        font-size: 80px;
+    }
+    #page-info h2 {
+        font-size: 50px;
+        text-decoration-thickness: 6px;
+        text-underline-offset: 4px;
+    }
+    blockquote {
+        border-left-width: 5px;
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    #page-info > h5, #page-info > h6 {
+        font-size: 20px;
+    }
+    #page-info > h6 {
+        margin-top: -10px;
+    }
+    #page-info > h6 > a {
+        font-size: 20px;
+    }
+}
+
+/***************************************************************************************************************/
+/* Page info files */
+/***************************************************************************************************************/
+
+#page-info img,
+#page-info video,
+#page-info iframe {
+    width: 100%;
+}
+#page-info iframe {
+    aspect-ratio: 16/9;
+}
+
+/***************************************************************************************************************/
+/* Link Container */
+/***************************************************************************************************************/
+
+.link-container {
+    margin-top: 20px;
+}
+.link-container a {
+    display: inline-block;
+    padding-left: 0;
+    --icon-foreground-color: var(--foreground-color);
+    --icon-background-color: var(--accent-color);
+}
+.link-container a > svg  {
+    aspect-ratio: 1;
+    height: 100px;
+}
+@media screen and (min-width: 800px) {
+    .link-container {
+        margin-top: 40px;
+    }
+    .link-container a > svg  {
+        height: 200px;
+    }
+}
+
+svg {
+    display: block;
 }

@@ -27,3 +27,5 @@ collections:
     output: true
   trabalhos:
     output: true
+  informacao:
+    output: true

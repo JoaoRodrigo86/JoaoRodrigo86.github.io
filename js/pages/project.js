@@ -1,4 +1,4 @@
-let allFiles = document.getElementById('project-info').querySelectorAll('img');
+let allFiles = document.getElementById('page-info').querySelectorAll('img');
 allFiles.forEach(file => {
     let fileSrc = file.src;
     let extension = fileSrc.split('.').reverse()[0];

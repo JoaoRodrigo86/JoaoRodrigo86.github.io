@@ -4,11 +4,11 @@ layout: page
 
 <link rel="stylesheet" href="/css/pages/project.css">
 
-<div id="project-cover">
+<div id="page-cover">
     <img src="{{page.background}}" alt="{{page.nome}}">
     <h1>{{ page.nome }}</h1>
 </div>
-<div id="project-info">
+<div id="page-info">
     <a id="back-link" href="javascript:history.back()" {%- if page.path contains "index.md" -%} class="hidden" {%- endif -%}>{%- include svgs/dichromatic/arrow.svg -%}</a>
     {%- if page.icon_do_titulo -%}
         <div class="small-title-icon">{%- include {{page.icon_do_titulo}} -%}</div>
@@ -18,6 +18,6 @@ layout: page
 
 <script src="/js/pages/project.js" defer></script>
 <script>
-    let firstHeader = document.getElementById('project-info').querySelector('h1');
+    let firstHeader = document.getElementById('page-info').querySelector('h1');
     firstHeader.style.fontFamily = "{{ page.font_do_titulo }}";
 </script>

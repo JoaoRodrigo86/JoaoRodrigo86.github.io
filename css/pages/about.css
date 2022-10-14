@@ -1,0 +1,75 @@
+.link-container a > svg  {
+    aspect-ratio: 1;
+    height: 60px;
+}
+@media screen and (min-width: 800px) {
+    .link-container a > svg  {
+        height: 125px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 173px),
+(min-width: 237px) and (max-width: 299px),
+(min-width: 364px) and (max-width: 426px),
+(min-width: 491px) and (max-width: 553px),
+(min-width: 617px) and (max-width: 680px),
+(min-width: 745px) and (max-width: 799px),
+(min-width: 904px) and (max-width: 1036px),
+(min-width: 1169px) and (max-width: 1199px),
+(min-width: 1304px) and (max-width: 1436px),
+(min-width: 1569px) and (max-width: 1700px),
+(min-width: 1833px) and (max-width: 1965px),
+(min-width: 2098px) {
+    #page-info.about-page-info .link-container a:nth-child(even){
+        --icon-foreground-color: var(--accent-color);
+        --icon-background-color: var(--foreground-color);
+    }
+}
+@media screen and (min-width: 174px) and (max-width: 236px) {
+    #page-info.about-page-info .link-container a:nth-child(4n+2),
+    #page-info.about-page-info .link-container a:nth-child(4n+3) {
+        --icon-foreground-color: var(--accent-color);
+        --icon-background-color: var(--foreground-color);
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 363px),
+(min-width: 800px) and (max-width: 903px),
+(min-width: 1200px) and (max-width: 1303px) {
+    #page-info.about-page-info .link-container a:nth-child(8n+2), #page-info.about-page-info .link-container a:nth-child(8n+4),
+    #page-info.about-page-info .link-container a:nth-child(8n+5), #page-info.about-page-info .link-container a:nth-child(8n+7) {
+        --icon-foreground-color: var(--accent-color);
+        --icon-background-color: var(--foreground-color);
+    }
+}
+@media screen and (min-width: 427px) and (max-width: 490px),
+(min-width: 1037px) and (max-width: 1168px),
+(min-width: 1437px) and (max-width: 1568px) {
+    #page-info.about-page-info .link-container a:nth-child(12n+2), #page-info.about-page-info .link-container a:nth-child(12n+4), #page-info.about-page-info .link-container a:nth-child(12n+6),
+    #page-info.about-page-info .link-container a:nth-child(12n+7), #page-info.about-page-info .link-container a:nth-child(12n+9), #page-info.about-page-info .link-container a:nth-child(12n+11) {
+        --icon-foreground-color: var(--accent-color);
+        --icon-background-color: var(--foreground-color);
+    }
+}
+@media screen and (min-width: 554px) and (max-width: 616px),
+(min-width: 1701px) and (max-width: 1832px) {
+    #page-info.about-page-info .link-container a:nth-child(16n+2), #page-info.about-page-info .link-container a:nth-child(16n+4), #page-info.about-page-info .link-container a:nth-child(16n+6), #page-info.about-page-info .link-container a:nth-child(16n+8),
+    #page-info.about-page-info .link-container a:nth-child(16n+9), #page-info.about-page-info .link-container a:nth-child(16n+11), #page-info.about-page-info .link-container a:nth-child(16n+13), #page-info.about-page-info .link-container a:nth-child(16n+15) {
+        --icon-foreground-color: var(--accent-color);
+        --icon-background-color: var(--foreground-color);
+    }
+}
+@media screen and (min-width: 681px) and (max-width: 743px),
+(min-width: 1966px) and (max-width: 2097px) {
+    #page-info.about-page-info .link-container a:nth-child(20n+2), #page-info.about-page-info .link-container a:nth-child(20n+4), #page-info.about-page-info .link-container a:nth-child(20n+6), #page-info.about-page-info .link-container a:nth-child(20n+8),#page-info.about-page-info .link-container a:nth-child(20n+10),
+    #page-info.about-page-info .link-container a:nth-child(20n+11), #page-info.about-page-info .link-container a:nth-child(20n+13), #page-info.about-page-info .link-container a:nth-child(20n+15), #page-info.about-page-info .link-container a:nth-child(20n+17), #page-info.about-page-info .link-container a:nth-child(20n+19) {
+        --icon-foreground-color: var(--accent-color);
+        --icon-background-color: var(--foreground-color);
+    }
+}

@@ -1,15 +1,18 @@
 ---
 layout: about
-nome: João Poop
-background: /assets/about/elpoop.jpg
+nome: João Rodrigo
+background: /assets/about/fotoperfil.jpg
 
 habilitacoes:
     - { nome: AVTA, img: /informacao/habilitacoes/avta.svg, link: /avta }
     - { nome: IPG, img: /informacao/habilitacoes/ipg.svg, link: /ipg }
+    
 experiencia:
+    - { nome: Edições Metamorfose, img: /informacao/experiencia/em.svg, link: /edicoes-metamorfose }
     - { nome: FOCA, img: /informacao/experiencia/foca.svg, link: /foca }
     - { nome: ESOM, img: /informacao/experiencia/esom.svg, link: /esom }
     - { nome: Cunha Leão, img: /informacao/experiencia/cunha_leao.svg, link: /cunha-leao }
+   
 software:
     - { nome: Adobe After Effects, img: /informacao/software/ae.svg, link: "#" }
     - { nome: Adobe Illustrator, img: /informacao/software/ai.svg, link: "#"  }
@@ -50,7 +53,11 @@ CTeSP - Ilustração e Produção Gráfica
 
 ## Experiência Profissional
 
-2019-Presente   
+2022-Presente   
+Edições Metamorfose
+##### (Editora de Livros) 
+
+2019-2022   
 Equipa de Marketing na FOCA- Focus on critical actions
 ##### (FOCA é uma associação de jovens que tem como missão fazer mais pelo Ambiente) 
 

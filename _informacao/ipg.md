@@ -14,9 +14,9 @@ O Técnico Superior Profissional em Ilustração e Produção Gráfica é um pro
 
 ## Alguns trabalhos
 
-[![Still 19](/assets/projects/unknown/still 19.jpg)](/projetos/unknown/)
+[![Still 19](/assets/projects/unknown/still 19.jpg)](/projetos/unknown)
 > Unknown
 
 &nbsp;
-[{%- include /informacao/habilitacoes/portodays_banner.svg -%}](/projetos/porto_days/) &nbsp;
+[{%- include /informacao/habilitacoes/portodays_banner.svg -%}](/projetos/porto_days) &nbsp;
 > Porto Days

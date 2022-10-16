@@ -15,7 +15,7 @@ Este curso visa a habilitar competências técnicas, operativas e teóricas nos 
 
 ## Alguns trabalhos
 &nbsp;
-[{%- include /informacao/habilitacoes/hallo_banner.svg -%}](/projetos/hallo/) &nbsp;
+[{%- include /informacao/habilitacoes/hallo_banner.svg -%}](/projetos/hallo) &nbsp;
 > Hallo
 
 ![Img 2](/assets/about/avta/avta1.jpg)

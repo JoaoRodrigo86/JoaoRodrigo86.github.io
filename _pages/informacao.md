@@ -28,9 +28,9 @@ software:
 
 ## Sobre mim
 
-Olá, o meu nome é João Rodrigo, sou Designer Gráfico e Ilustrador. Tenho 24 anos e sou do Porto. Tenho o curso de Ilustração e produção gráfica, e a licenciatura de Artes Visuais e Tecnologias artísticas, ambos os cursos da Escola Superior de Educação do Porto (ESE).
+Olá, o meu nome é João Rodrigo Carvalho, sou Designer Gráfico e Ilustrador. Nasci em 1997 e sou do Porto. Tenho o curso de Ilustração e produção gráfica, e a licenciatura de Artes Visuais e Tecnologias artísticas, ambos os cursos da Escola Superior de Educação do Porto (ESE).
 
-Essencialmente gosto de estar inserido em projetos diversificados que no qual abrangem várias áreas criativas, exigindo de mim um pensamento criativo e habilidade para resolver problemas. O meu foco está na criação de identidades visuais, dando soluções ao projeto em questão. 
+Essencialmente gosto de estar inserido em projetos diversificados que nos quais abrangem várias áreas criativas, exigindo de mim um pensamento criativo e habilidade para resolver problemas. O meu foco está na criação de identidades visuais, dando soluções ao projeto em questão. 
 
 Tento sempre aprender mais e estar a par das tendências, de modo a poder aplicar as minhas habilidades para fornecer um trabalho em arte e design.
 

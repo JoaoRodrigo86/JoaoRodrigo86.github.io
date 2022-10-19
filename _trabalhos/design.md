@@ -13,7 +13,7 @@
 ![Img2](/assets/trabalhos/design/des2.jpg)
 > "Alinhados"
 
-###### Artigo publicado na revista E-Learning: https://parc.ipp.pt/index.php/elearning/article/view/4262 
+###### Artigo publicado na revista E-Learning: [Link!](https://parc.ipp.pt/index.php/elearning/article/view/4262)
 
 
 ![Apple Playlist](/assets/trabalhos/design/applesplaylist.jpg)

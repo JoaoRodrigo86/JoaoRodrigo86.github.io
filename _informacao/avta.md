@@ -25,9 +25,3 @@ Este curso visa a habilitar competências técnicas, operativas e teóricas nos 
 > "Igualdade" 
 
 ###### Artigo publicado na revista E-Learning: [Link!](https://parc.ipp.pt/index.php/elearning/article/view/4278)
-
-![Img 4](/assets/about/avta/avta3.jpg)
-> “Facada”
-
-![Img 5](/assets/about/avta/avta4.jpg)
-> “Suspensão”

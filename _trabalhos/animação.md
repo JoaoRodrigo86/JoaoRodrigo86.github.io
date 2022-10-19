@@ -7,6 +7,8 @@
 ![Ani1](/assets/trabalhos/animação/ani1.gif)
 > Igualdade
 
+###### Artigo publicado na revista E-Learning: [Link!](https://parc.ipp.pt/index.php/elearning/article/view/4278)
+
 ![Ani2](/assets/trabalhos/animação/a2.gif)
 > Stress
 

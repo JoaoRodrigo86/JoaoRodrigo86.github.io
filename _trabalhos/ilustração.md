@@ -16,7 +16,7 @@
 ![Img4](/assets/trabalhos/ilustração/ilu4.jpg)
 > "Natureza morta 2018" rebuild 
 
-![Img4](/assets/trabalhos/ilustração/ilu5.jpg)
+![Img4](/assets/trabalhos/ilustração/ilu5.JPG)
 > "Always be a Sunflower"
 
 ![Img6](/assets/trabalhos/ilustração/ilu6.jpg)

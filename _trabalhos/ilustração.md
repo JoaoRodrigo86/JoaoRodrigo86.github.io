@@ -16,8 +16,8 @@
 ![Img4](/assets/trabalhos/ilustração/ilu4.jpg)
 > "Natureza morta 2018" rebuild 
 
-![Img5](/assets/trabalhos/ilustração/ilu5.jpg)
-> "Always be a sunflower"
+![Img4](/assets/trabalhos/ilustração/ilu5.jpg)
+> "Always be a Sunflower"
 
 ![Img6](/assets/trabalhos/ilustração/ilu6.jpg)
 > "Return to work" X The Simpsons 

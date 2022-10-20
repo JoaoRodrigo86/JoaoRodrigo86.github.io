@@ -26,8 +26,8 @@ Este curso visa a habilitar competências técnicas, operativas e teóricas nos 
 
 ###### Artigo publicado na revista E-Learning: [Link!](https://parc.ipp.pt/index.php/elearning/article/view/4278)
 
-![Img 4](/assets/about/avta/avta3.JPG)
-> "Facada" 
+![Img4](/assets/trabalhos/outros/ou3.jpg)
+> "Facada"
 
-![Img 5](/assets/about/avta/avta4.JPG)
-> "Suspensão" 
+![Img5](/assets/trabalhos/outros/ou4.jpg)
+> "Suspensão"

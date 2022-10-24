@@ -19,6 +19,7 @@ Eu estou entregado na equipa de Marketing, onde sou responsável pelo Design das
 
 ![Img 2](/assets/projects/foca/Recrutamento.jpg)
 > "Recrutamento 2021"
+
 ###### Tenha a "experiência real": [Link!](https://www.instagram.com/p/CVLy7C5I34a/)
 
 ![Img 3](/assets/projects/foca/Embaixadora.jpg)
@@ -26,6 +27,7 @@ Eu estou entregado na equipa de Marketing, onde sou responsável pelo Design das
 
 ![Img 4](/assets/projects/foca/roupasuja.jpg)
 > Fofoca: "Roupa Suja"
+
 ###### Tenha a "experiência real": [Link!](https://www.instagram.com/p/CI4AWTnnFPL/)
 
 ![YOUTUBE](https://www.youtube.com/embed/RSGUHCGhyv8)

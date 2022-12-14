@@ -6,6 +6,6 @@
     font_do_titulo: JandaSafeandSound
 ---
 
-# O Capa, o V dobrado e o I grego
+# O Capa, o V dobrado <br> e o I grego
 
 Novidades em breve!!

@@ -116,6 +116,14 @@ svg .cls-is {
     font-family: Queen;
     src: url(../assets/fonts/Queen\ of\ Clubs.otf);
 }
+@font-face {
+    font-family: Creatours;
+    src: url(../assets/fonts/Creatours.otf);
+}
+@font-face {
+    font-family: JandaSafeandSound;
+    src: url(../assets/fonts/JandaSafeandSound.ttf);
+}
 * {
     font-family: London;
 }

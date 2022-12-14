@@ -16,3 +16,7 @@ Surgiu em 2019 contando com a participação de vários autores.
 
 {% include components/project_links.md %}
 
+## Alguns Trabalhos
+
+![Img 1](/assets/projects/metamorfose/em1.jpg)
+> Natal 2022

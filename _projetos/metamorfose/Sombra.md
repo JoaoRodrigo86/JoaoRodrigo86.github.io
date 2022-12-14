@@ -3,7 +3,7 @@
     icon: /projects/metamorfose/A-47.svg
     nome: E.Metamorfose
     background: /assets/projects/metamorfose/av10.jpg
-    font_do_titulo: Helvetica
+    font_do_titulo: Creatours
 ---
 
 # Sombra, o Gatinho aventureiro

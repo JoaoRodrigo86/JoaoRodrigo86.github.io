@@ -35,3 +35,8 @@ A Maria é uma criança alegre e desembaraçada. Vive numa aldeia muito especial
 ![Img 8](/assets/projects/metamorfose/av8.jpg)
 
 ![Img 9](/assets/projects/metamorfose/av9.jpg)
+
+## Época festiva
+
+![Img 10](/assets/projects/metamorfose/av11.jpg)
+> Natal 2022

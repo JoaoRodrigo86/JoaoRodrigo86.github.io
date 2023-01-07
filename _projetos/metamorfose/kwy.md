@@ -6,7 +6,7 @@
     font_do_titulo: JandaSafeandSound
 ---
 
-# O Capa, o V dobrado e o I grego
+# O Capa, o V dobrado <br> e o I grego
 
 É hora do recreio na zona E, escola do Planeta das Letras. Todas elas brincam, excepto o Z, que é um dorminhoco. No entanto, ele está atendo a cada uma das letras do alfabeto do qual ele faz parte. A história diz-lhe que no tempo dos seus avós, este alfabeto era constituído por vinte e três letras, ás quais se juntaram mais três letras, às quais se juntaram mais três, passando a uma comunidade de vinte e seis. Espicaçadas pelo Z, as restantes letras partem com ele à aventura. As experiências vividas nessa jornada, jamais as esquecerão, O que irão eles fazer? 
 <br>É o que vamos descobrir...

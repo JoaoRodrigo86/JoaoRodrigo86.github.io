@@ -14,3 +14,6 @@ Surgiu em 2019 contando com a participação de vários autores.
 
 ![Img 1](/assets/projects/metamorfose/av1.jpg)
 > A aldeia do vento
+
+![Img 2](/assets/projects/metamorfose/kwy1.jpg)
+> O capa o V dobrado e o I grego

@@ -2,7 +2,7 @@
     layout: project
     icon: /projects/metamorfose/A-46.svg
     nome: E.Metamorfose
-    background: /assets/projects/metamorfose/av10.jpg
+    background: /assets/projects/metamorfose/capaem.jpg
     font_do_titulo: Partyletplain
 ---
 
@@ -35,8 +35,3 @@ A Maria é uma criança alegre e desembaraçada. Vive numa aldeia muito especial
 ![Img 8](/assets/projects/metamorfose/av8.jpg)
 
 ![Img 9](/assets/projects/metamorfose/av9.jpg)
-
-## Época festiva
-
-![Img 10](/assets/projects/metamorfose/av11.jpg)
-> Natal 2022

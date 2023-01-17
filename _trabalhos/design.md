@@ -5,19 +5,19 @@
 ---
 
 [![Melhor site do mundo](/assets/trabalhos/design/best_site_ever.png)](https://ldkid.github.io/)
-> Site Flávio Ferreira x Flávio Ferreira
+> Site Flávio Ferreira \ 2022
 
 ![Img1](/assets/trabalhos/design/des1.jpg)
-> "Apresentação do Projeto Final"
+> "Apresentação do Projeto Final" \ 2021
 
 ![Img2](/assets/trabalhos/design/des2.jpg)
-> "Alinhados"
+> "Alinhados" \ 2021
 
-###### Artigo publicado na revista E-Learning: [Link!](https://parc.ipp.pt/index.php/elearning/article/view/4262)
+###### Artigo publicado na revista [E-Learning](https://parc.ipp.pt/index.php/elearning/article/view/4262)
 
 
 ![Apple Playlist](/assets/trabalhos/design/applesplaylist.jpg)
-> Apple playlist
+> "Apple Playlist" \ 2020
 
 ## Logotipos 
 &nbsp;

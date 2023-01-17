@@ -30,7 +30,7 @@ software:
 
 Olá, o meu nome é João Rodrigo Carvalho, sou Designer Gráfico e Ilustrador. Nasci em 1997 e sou do Porto. Tenho o curso de Ilustração e produção gráfica, e a licenciatura de Artes Visuais e Tecnologias artísticas, ambos os cursos da Escola Superior de Educação do Porto (ESE).
 
-Essencialmente gosto de estar inserido em projetos diversificados que nos quais abrangem várias áreas criativas, exigindo de mim um pensamento criativo e habilidade para resolver problemas. O meu foco está na criação de identidades visuais, dando soluções ao projeto em questão. 
+Essencialmente gosto de estar inserido em projetos diversificados que nos quais abrangem várias áreas criativas, exigindo de mim um pensamento criativo e habilidade para resolver problemas. 
 
 Tento sempre aprender mais e estar a par das tendências, de modo a poder aplicar as minhas habilidades para fornecer um trabalho em arte e design.
 
@@ -89,5 +89,3 @@ Putty 3D
 ## Interesses Pessoais
 
 Sempre achei importante nos dedicarmos a alguma atividade para além da escola… seja música, dança, teatro, qualquer atividade acaba por aumentar o nosso potencial enquanto pessoas. A minha atividade de eleição sempre foi o desporto, tendo sido jogador federado durante 10 anos, em dois clubes, o Sport Progresso (onde comecei), e o Custóias FC.
-
-Para além do futebol, sempre gostei de jogos, principalmente que envolvam futebol ou história, onde eu consiga trabalhar o pensamento estratégico. Para além destes hobbies, também gosto de estar com os meus amigos e de viajar.

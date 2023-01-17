@@ -20,18 +20,18 @@ Eu estou entregado na equipa de Marketing, onde sou responsável pelo Design das
 ![Img 2](/assets/projects/foca/Recrutamento.jpg)
 > "Recrutamento 2021"
 
-###### Tenha a "experiência real": [Link!](https://www.instagram.com/p/CVLy7C5I34a/)
+###### [Instagram](https://www.instagram.com/p/CVLy7C5I34a/)
 
 ![Img 3](/assets/projects/foca/Embaixadora.jpg)
-> "Embaixadora"
+> "Quem somos?"
 
 ![Img 4](/assets/projects/foca/roupasuja.jpg)
 > Fofoca: "Roupa Suja"
 
-###### Tenha a "experiência real": [Link!](https://www.instagram.com/p/CI4AWTnnFPL/)
+###### [Instagram](https://www.instagram.com/p/CI4AWTnnFPL/)
 
 ![YOUTUBE](https://www.youtube.com/embed/RSGUHCGhyv8)
 > "Hora do Planeta 2021"
 
 ![Img 5](/assets/projects/foca/foca3d.jpg)
-> "Foca 3D"
+> Foca 3D

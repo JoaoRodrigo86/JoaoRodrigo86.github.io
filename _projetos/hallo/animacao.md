@@ -16,10 +16,10 @@
 ## Logos
 
 ![YOUTUBE](https://www.youtube.com/embed/_W10FeDqVc8)
-> Particulas
+> "Particles"
 
 ![YOUTUBE](https://www.youtube.com/embed/G4rvNnBteOc)
-> Glitch
+> "Glitch"
 
 ## Gif´s
 

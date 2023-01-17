@@ -23,13 +23,13 @@ Em relação às ilustrações, o Hallo tem ausência de linha (não tem a “ou
 > "Olá Instagram"
 
 ![Img 2](/assets/projects/hallo/insta/h5.jpg)
-> "Heroes of today"
+> "Heroes of 2020"
 
 ![Img 3](/assets/projects/hallo/insta/h3.jpg)
 > "Serioulsy?"
 
 ![Img 4](/assets/projects/hallo/insta/h2.jpg)
-> "Hallo x God Of War"
+> Hallo x God Of War
 
 ![Img 5](/assets/projects/hallo/insta/h1.jpg)
-> "Hallo x Snoopy"
+> Hallo x Snoopy

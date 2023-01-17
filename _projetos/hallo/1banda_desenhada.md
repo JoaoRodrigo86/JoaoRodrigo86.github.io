@@ -9,7 +9,7 @@
 
 # Hallo
 
-## Banda Desenhada- Sinopse
+## Banda Desenhada
 
 Hallo é um pequeno extraterrestre muito misterioso. Desde que foi expulso da Terra, no ano de 2150, que vive quase isolado no seu planeta, Tharhe! É um planeta que apesar dos poucos habitantes, está cheio de recursos. 
 São poucos aqueles que arriscam viver ao lado de Hallo, visto que é um ser muito perigoso. Aqueles que o fazem, podem ser amigos dele ou podem ser chamados de loucos... o que normalmente acabam por ser ambos. 

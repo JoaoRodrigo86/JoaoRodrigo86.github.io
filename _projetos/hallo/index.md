@@ -26,7 +26,7 @@ Em todas elas tem, de uma certa forma, uma abordagem diferente da anterior, por�
 > "Hallo_Onig em Tharhe"
 
 ![Img 2](/assets/projects/hallo/main/2.jpg)
-> “Balanço”
+> “Equilibrio”
 
 ![Img 3](/assets/projects/hallo/main/3.jpg)
-> “Hallo_Onig Star View”
+> “Hallo Star View”

@@ -19,7 +19,7 @@ Surgiu em 2019 contando com a participação de vários autores.
 ## Alguns Trabalhos
 
 ![Img 1](/assets/projects/metamorfose/em1.jpg)
-> Natal 2022
+> E.Metamorfose Natal 2022
 
 ![Img 10](/assets/projects/metamorfose/av11.jpg)
-> Natal 2022
+> Aldeia do Vento Natal 2022

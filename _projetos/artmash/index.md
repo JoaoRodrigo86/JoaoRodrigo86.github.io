@@ -8,8 +8,7 @@
 
 # #aRTMASH
 
-É uma atividade social criada pelo Procreate para os artistas saírem das suas zonas de conforto com 3 “prompts” de desenho semanais aleatórios. ⠀
-Os “prompts” são: um ambiente, uma personagem e um objeto. Os artistas interpretam os “prompts” como quiserem, podem misturar e criar uma história ou apenas poderão escolher um e ilustrar. 
+Começou por ser um desafio criado pelo Procreate, lançando aleatóriamente um ambiente, uma personagem e um objeto, para as pessoas desafiarem-se a criarem uma ilustração a partir destes três elementos. Era uma atividade social semanal, mas que infelizmente já terminou. Contudo continuo a desafiar a mim mesmo, usando os mesmos princípios e aleatoriadade. 
 
 {% include components/project_links.md %}
 

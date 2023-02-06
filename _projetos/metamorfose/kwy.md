@@ -13,9 +13,10 @@
 <br>
 <br> Encomende já: 
 <br>[-Edições Metamorfose](https://edicoesmetamorfose.pt/product/o-capa-o-v-dobrado-e-o-i-grego/)
-<br>[-Wook](https://www.wook.pt/livro/o-capa-o-v-dobrado-e-o-i-grego-maria-gaio/28002405)
-<br>[-Bertrand](https://www.bertrand.pt/pesquisa/O+Capa,+O+V+Dobrado+E+O+I+Grego)
 <br>[-Almedina](https://www.almedina.net/o-capa-o-v-dobrado-e-o-i-grego-1672931859.html)
+<br>[-Bertrand](https://www.bertrand.pt/pesquisa/O+Capa,+O+V+Dobrado+E+O+I+Grego)
+<br>[-Fnac](https://www.fnac.pt/SearchResult/ResultList.aspx?SCat=0&Search=o+capa+o+v+dobrado+e+o+i+grego&sft=1&sa=hist)
+<br>[-Wook](https://www.wook.pt/livro/o-capa-o-v-dobrado-e-o-i-grego-maria-gaio/28002405)
 
 ![Img 1](/assets/projects/metamorfose/kwy1.jpg)
 

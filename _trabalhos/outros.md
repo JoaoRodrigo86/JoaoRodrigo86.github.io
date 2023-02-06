@@ -4,7 +4,7 @@
     icon: /trabalhos/outros_hex.svg
 ---
 
-![Img1](/assets/trabalhos/outros/ou0.jpg)
+![Img1](/assets/trabalhos/outros/ou8.jpg)
 > "Serafão" \ 2021
 
 ![Img1](/assets/trabalhos/outros/ou1.jpg)

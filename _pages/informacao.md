@@ -86,6 +86,8 @@ Putty 3D
 
 {% include components/svg_array.md lista="software" %}
 
+## Páginas e redes sociais
+
 ## Interesses Pessoais
 
 Sempre achei importante nos dedicarmos a alguma atividade para além da escola… seja música, dança, teatro, qualquer atividade acaba por aumentar o nosso potencial enquanto pessoas. A minha atividade de eleição sempre foi o desporto, tendo sido jogador federado durante 10 anos, em dois clubes, o Sport Progresso (onde comecei), e o Custóias FC.

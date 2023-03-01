@@ -26,15 +26,15 @@ software:
     - { nome: Putty 3D, img: /informacao/software/pt.svg, link: "#"  }
   
 social:
-    - { nome: Twitter, img: /informacao/social/twitter.svg, link: "https://twitter.com/JoaoRodrigo86" }
-    - { nome: Pinterest, img: /informacao/social/pinterest.svg, link: "https://www.pinterest.pt/JoaoRodrigoCarvalho/" }
-    - { nome: Behance, img: /informacao/social/behance.svg, link: "https://www.behance.net/joaocarvalho29" }
-    - { nome: Procreate Folio, img: /informacao/social/procreatefolio.svg, link: "https://folio.procreate.com/joaorodrigo" }
-    - { nome: Giphy, img: /informacao/social/giphy.svg, link: "https://giphy.com/channel/joaorodrigocarvalho" }
-    - { nome: Savee, img: /informacao/social/savee.svg, link: "https://savee.it/joaorodrigocarvalho/" }
-    - { nome: Edições Metamorfose, img: /informacao/social/empagina.svg, link: "https://edicoesmetamorfose.pt/2022/10/04/joao-rodrigo-carvalho/" }
-    - { nome: Fnac, img: /informacao/social/fnac.svg, link: "https://www.fnac.pt/ia1016675/Joao-Rodrigo-Carvalho" }
-    - { nome: BNP, img: /informacao/social/bnp.svg, link: "https://bibliografia.bnportugal.gov.pt/bnp/bnp.exe/q?mfn=273943&qf_AU==CARVALHO%2C%20JOAO%20RODRIGO%2C%201997-" }
+    - { nome: Twitter, img: /informacao/social/twitter.svg, link: "https://twitter.com/JoaoRodrigo86", external: true }
+    - { nome: Pinterest, img: /informacao/social/pinterest.svg, link: "https://www.pinterest.pt/JoaoRodrigoCarvalho/", external: true }
+    - { nome: Behance, img: /informacao/social/behance.svg, link: "https://www.behance.net/joaocarvalho29", external: true }
+    - { nome: Procreate Folio, img: /informacao/social/procreatefolio.svg, link: "https://folio.procreate.com/joaorodrigo", external: true }
+    - { nome: Giphy, img: /informacao/social/giphy.svg, link: "https://giphy.com/channel/joaorodrigocarvalho", external: true }
+    - { nome: Savee, img: /informacao/social/savee.svg, link: "https://savee.it/joaorodrigocarvalho/", external: true }
+    - { nome: Edições Metamorfose, img: /informacao/social/empagina.svg, link: "https://edicoesmetamorfose.pt/2022/10/04/joao-rodrigo-carvalho/", external: true }
+    - { nome: Fnac, img: /informacao/social/fnac.svg, link: "https://www.fnac.pt/ia1016675/Joao-Rodrigo-Carvalho", external: true }
+    - { nome: BNP, img: /informacao/social/bnp.svg, link: "https://bibliografia.bnportugal.gov.pt/bnp/bnp.exe/q?mfn=273943&qf_AU==CARVALHO%2C%20JOAO%20RODRIGO%2C%201997-", external: true }
 ---
 
 ## Sobre mim

@@ -84,16 +84,7 @@ Estágio- Empresa “Cunha Leão”
 
 ## Competências de Software
 
-A.After Effects   
-A.Ilustrator   
-A.inDesign   
-A.Photoshop   
-A.Premiere   
-A.Xd   
-Cinema 4D   
-Microsoft Office   
-Procreate   
-Putty 3D   
+
 
 {% include components/svg_array.md lista="software" %}
 

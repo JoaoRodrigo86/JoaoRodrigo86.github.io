@@ -10,6 +10,9 @@
 ![Img2](/assets/trabalhos/pintura/pi2.jpg)
 > "Beijo" \ 2019
 
+![Img7](/assets/trabalhos/pintura/pi72.jpg)
+> "O grito ver.JRC" \ 2023
+
 ![Img3](/assets/trabalhos/pintura/pi3.jpg)
 > "Natureza morta 2018" \ 2018
 
@@ -21,9 +24,6 @@
 
 ![Img6](/assets/trabalhos/pintura/pi6.jpg)
 > "Foco" \ 2019
-
-![Img7](/assets/trabalhos/pintura/pi7.jpg)
-> "O gri... riso" \ 2019
 
 ![Img8](/assets/trabalhos/pintura/pi8.jpg)
 > "Mapa de Almada Negreiros" X ESOM \ 2021

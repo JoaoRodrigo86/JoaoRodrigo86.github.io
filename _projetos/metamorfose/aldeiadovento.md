@@ -15,6 +15,8 @@ A Maria é uma criança alegre e desembaraçada. Vive numa aldeia muito especial
 <br>[-Edições Metamorfose](https://edicoesmetamorfose.pt/product/a-aldeia-do-vento/)
 <br>[-Almedina](https://www.almedina.net/a-aldeia-do-vento-o-mist-rio-dos-postes-desaparecidos-1665763828.html)
 <br>[-Bertrand](https://www.bertrand.pt/pesquisa/aldeia+do+vento)
+<br>[-DNLC](https://livros.dnlc.pt/etiqueta/andreia-galhardo-ilustracao-joao-rodrigo-carvalho/)
+<br>[-Fnac](https://www.fnac.pt/A-Aldeia-do-Vento-Joao-Rodrigo-Carvalho/a10449846)
 <br>[-Wook](https://www.wook.pt/livro/a-aldeia-do-vento-andreia-galhardo/27705698)
 
 

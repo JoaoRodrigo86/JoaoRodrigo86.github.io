@@ -35,6 +35,10 @@ social:
     - { nome: Edições Metamorfose, img: /informacao/social/empagina.svg, link: "https://edicoesmetamorfose.pt/2022/10/04/joao-rodrigo-carvalho/", external: true }
     - { nome: Fnac, img: /informacao/social/fnac.svg, link: "https://www.fnac.pt/ia1016675/Joao-Rodrigo-Carvalho", external: true }
     - { nome: BNP, img: /informacao/social/bnp.svg, link: "https://bibliografia.bnportugal.gov.pt/bnp/bnp.exe/q?mfn=273943&qf_AU==CARVALHO%2C%20JOAO%20RODRIGO%2C%201997-", external: true }
+    - { nome: Indeed, img: /informacao/social/indeed.svg, link: "https://profile.indeed.com/?hl=pt_PT&co=PT", external: true }
+    - { nome: Instagram, img: svgs/dichromatic/instagram.svg, link: "https://www.instagram.com/joaorodrigo86/", external: true }
+    - { nome: Facebook, img: /svgs/dichromatic/facebook.svg, link: "https://m.facebook.com/joaorodrigo.carvalho?eav=AfYeLJn4j6ZBG_5D7aLFCzyeHkuXca7hWoC7jC7xq-b9fofA35GjBtmSFHM52Z4Kgos&paipv=0", external: true }
+    - { nome: LinkedIn, img: /svgs/dichromatic/linkedin.svg, link: "https://www.linkedin.com/in/joão-rodrigo-carvalho-b3b398230/", external: true }
 ---
 
 ## Sobre mim

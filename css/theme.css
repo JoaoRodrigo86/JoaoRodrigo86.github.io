@@ -124,6 +124,10 @@ svg .cls-is {
     font-family: JandaSafeandSound;
     src: url(../assets/fonts/JandaSafeandSound.ttf);
 }
+@font-face {
+    font-family: Amatic;
+    src: url(../assets/fonts/AmaticSC-Regular.ttf)
+}
 * {
     font-family: London;
 }

@@ -1,9 +1,11 @@
 ---
     layout: project
-    icon: /projects/metamorfose/avomanuel.svg
-    nome: O inteligente avô Manuel
+    icon: /projects/metamorfose/ointeligenteavomanuel.svg
+    nome: E.Metamorfose
     background: /assets/projects/metamorfose/capaem.jpg
-    font_do_titulo: JandaSafeandSound
+    font_do_titulo: Amatic
 ---
 
-# Novidades em breve
+# O inteligente avô Manuel
+
+Novidades em breve

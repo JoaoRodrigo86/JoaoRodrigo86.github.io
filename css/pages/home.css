@@ -5,8 +5,18 @@ body {
     background-position: right center;
     background-origin: content-box;
     background-attachment: fixed;
-    -webkit-transition: background-image 1s ease-in-out;
-    transition: background-image 1s ease-in-out;
+    transition-property: background-image, background-position;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+body.new-bg {
+    background-image: url("/assets/imgs/NewBG.png");
+    background-position: center;
+}
+@media screen and (min-width: 1200px) {
+    body.new-bg {
+        background-position-x: calc(50% + var(--header-width) / 2);
+    }
 }
 body.ee1 {
     background-image: url("/assets/imgs/ee1.png");

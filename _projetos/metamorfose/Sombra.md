@@ -4,6 +4,7 @@
     nome: E.Metamorfose
     background: /assets/projects/metamorfose/capaem.jpg
     font_do_titulo: Creatours
+    published: false
 ---
 
 # Sombra, o Gatinho aventureiro

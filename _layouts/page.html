@@ -34,23 +34,36 @@
 </html>
 
 <script defer>
-    const DEFAULT_HUE = 54;
+    const DEFAULT_HUE = {{ site.color_config.default_hue }}
+    const SATURATION = {{ site.color_config.saturation }}
+    const LIGHTNESS = {{site.color_config.lightness}}
+    const BG_SWITCH_HUE = {{site.color_config.bg_switch}}
 
     // Get the saved preference
     let theme = sessionStorage.getItem('theme');
     theme = ( theme ) ? theme : DEFAULT_HUE;
 
-    document.body.style.setProperty('--accent-color', `hsl(${theme},97%,53%)`);
+    document.body.style.setProperty('--accent-color', `hsl(${theme},${SATURATION}%,${LIGHTNESS}%)`);
 
     if ( "{{ page.url }}" == '/' ) {
         document.getElementById(`hue-${theme}`).classList.add('picked-hue');
+        document.body.classList.add('no-anim')
         ee1();
+        setBackground(theme)
+        document.body.classList.remove('no-anim')
     }
 
     function ee1() {
-    if ( document.getElementById(`hue-30`).classList.contains('picked-hue') ) {
-        document.body.style.setProperty('--accent-color', `hsl(30,100%,28%)`);
-        document.body.classList.add('ee1');
+        if ( document.getElementById(`hue-30`).classList.contains('picked-hue') ) {
+            document.body.style.setProperty('--accent-color', `hsl(30,100%,28%)`);
+            document.body.classList.add('ee1');
+        }
     }
-}
+    function setBackground(hue) {
+        if ( hue < BG_SWITCH_HUE ) {
+            document.body.classList.remove('new-bg');
+        } else {
+            document.body.classList.add('new-bg');
+        }
+    }
 </script>

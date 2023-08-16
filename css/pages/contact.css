@@ -22,8 +22,9 @@
     margin: 0;
 }
 #link-block .link-container {
+    text-align: center;
     margin-top: 0;
-    margin-bottom: 45px;
+    margin-bottom: 0px;
 }
 .link-container a {
     display: inline-block;
@@ -46,12 +47,9 @@ input:not([type=submit]), textarea {
 input, textarea {
     margin-bottom: 14px;
 }
-input[type=submit] {
-    float: right;
-    margin-right: 10%;
-}
 form {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 
@@ -70,20 +68,14 @@ form {
     .link-container a > svg  {
         height: 105px;
     }
-    #link-block, #form-container {
-        width: 45%;
-    }
     .link-container {
         margin-bottom: 45px;
     }
     input, textarea {
-        float: right;
         margin-bottom: 28px;
     }
     form {
         margin-bottom: 0;
-    }
-    input[type=submit] {
-        margin-right: 0;
+        margin-inline: 15%;
     }
 }

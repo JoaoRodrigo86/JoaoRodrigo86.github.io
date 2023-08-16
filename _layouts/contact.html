@@ -12,10 +12,13 @@ layout: page
     <div>
        <!--  <h2>João Rodrigo:</h2> -->
         <div class="link-container">
-            <a href="https://profile.indeed.com/?hl=pt_PT&co=PT" target="_blank" rel="noopener noreferrer">{%- include informacao/social/indeed.svg %}</a>
+            <!-- <a href="https://profile.indeed.com/?hl=pt_PT&co=PT" target="_blank" rel="noopener noreferrer">{%- include informacao/social/indeed.svg %}</a>
             <a href="https://www.instagram.com/joaorodrigo86/" target="_blank" rel="noopener noreferrer">{%- include svgs/dichromatic/instagram.svg %}</a>
             <a href="https://m.facebook.com/joaorodrigo.carvalho?eav=AfYeLJn4j6ZBG_5D7aLFCzyeHkuXca7hWoC7jC7xq-b9fofA35GjBtmSFHM52Z4Kgos&paipv=0" target="_blank" rel="noopener noreferrer">{%- include svgs/dichromatic/facebook.svg %}</a>
-            <a href="https://www.linkedin.com/in/joão-rodrigo-carvalho-b3b398230/" target="_blank" rel="noopener noreferrer">{%- include svgs/dichromatic/linkedin.svg %}</a>
+            <a href="https://www.linkedin.com/in/joão-rodrigo-carvalho-b3b398230/" target="_blank" rel="noopener noreferrer">{%- include svgs/dichromatic/linkedin.svg %}</a> -->
+            {%- for item in page.links -%}
+                <a href="{{item.url}}" alt="{{item.nome}}" >{% include {{item.icon}} %}</a>
+            {%- endfor -%}
         </div>
     </div>
     <!-- <div>

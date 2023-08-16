@@ -1,17 +1,20 @@
+---
+---
+
 :root {
     /* Colors */
     --background-color: #FFFFFF;
     --foreground-color: #000000;
     --dark-gray-color: #333333;
     --gray-color: #808080;
-    --accent-color: #FCE613;
+    --accent-color: hsl({{site.color_config.default_hue}}, {{site.color_config.saturation}}%, {{site.color_config.lightness}}%);
     --disabled-color: #B2B2B2;
     
 }
 body {
     background-color: var(--background-color);
 }
-svg .cls-1 {
+svg .cls-1, svg .cls-4 {
     fill: var(--icon-background-color);
 }
 svg .cls-2, svg .cls-4, svg .cls-3 {

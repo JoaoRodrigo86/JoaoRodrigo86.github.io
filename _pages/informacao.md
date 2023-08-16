@@ -41,6 +41,11 @@ social:
     - { nome: LinkedIn, img: /svgs/dichromatic/linkedin.svg, link: "https://www.linkedin.com/in/joão-rodrigo-carvalho-b3b398230/", external: true }
 ---
 
+Texto Pendente
+
+{% include informacao/download_cv.md %}
+
+{% comment %}
 ## Sobre mim
 
 Olá, o meu nome é João Rodrigo Carvalho, sou Designer Gráfico e Ilustrador. Nasci em 1997 e sou do Porto. Tenho o curso de Ilustração e produção gráfica, e a licenciatura de Artes Visuais e Tecnologias artísticas, ambos os cursos da Escola Superior de Educação do Porto (ESE).
@@ -99,3 +104,4 @@ Estágio- Empresa “Cunha Leão”
 ## Interesses Pessoais
 
 Sempre achei importante nos dedicarmos a alguma atividade para além da escola… seja música, dança, teatro, qualquer atividade acaba por aumentar o nosso potencial enquanto pessoas. A minha atividade de eleição sempre foi o desporto, tendo sido jogador federado durante 10 anos, em dois clubes, o Sport Progresso (onde comecei), e o Custóias FC.
+{% endcomment %}

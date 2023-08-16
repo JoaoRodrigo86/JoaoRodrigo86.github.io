@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.28 595.28">
+  <defs>
+    <style>
+      
+
+      <!-- .cls-4 {
+        fill: #010101;
+      }
+
+
+      .cls-4 {
+        fill: #fce62f;
+      }
+
+      .cls-three, .cls-four {
+        isolation: isolate;
+      }-->
+
+      .cls-f {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 18.2px;
+      }
+      .cls-text {
+        font-family: LondonTwo, LondonTwo;
+        font-size: 54.61px;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_39" data-name="Grupo 39">
+    <!-- Inner Hex -->
+    <g id="Grupo_37" data-name="Grupo 37">
+      <path id="Caminho_61" data-name="Caminho 61" class="cls-1" d="m78.2,169.03v257.21l222.75,128.6,222.75-128.6V169.03L300.95,40.43,78.2,169.03Z"/>
+    </g>
+    <!-- Outer Hex -->
+    <path id="Caminho_62" data-name="Caminho 62" class="cls-f cls-s1" d="m54.21,155.18v284.91l246.74,142.45,246.74-142.45V155.18L300.95,12.73,54.21,155.18Z"/>
+    <!-- TEXT -->
+    <g id="Grupo_38" data-name="Grupo 38">
+      <g id="IPG_16-18" data-name="IPG 16-18" class="cls-is">
+        <text class="cls-text cls-is cls-4" transform="translate(159.72 431.58)"><tspan x="0" y="0">Publicações</tspan></text>
+      </g>
+    </g>
+  </g>
+  <!-- Bracket -->
+  <path class="cls-4" d="m405.47,279.5v79.2h-209.04v-79.2c.24-.01.48-.04.72-.04,12.83,0,25.67,0,38.5,0,.26,0,.53.06.9.1v38.97h128.88v-39.08c.59,0,1.06,0,1.54,0,8.36,0,16.71,0,25.07,0,4.48,0,8.96.02,13.43.04Z"/>
+  <!-- Arrow -->
+  <polygon class="cls-4" points="194.93 205.61 300.95 99.59 406.96 205.61 372.69 239.88 300.95 168.13 229.2 239.88 194.93 205.61"/>
+</svg>

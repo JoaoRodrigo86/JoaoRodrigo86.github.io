@@ -1,16 +1,33 @@
 title: João Rodrigo
-email: 97ferreira.flavio+jotaweb@gmail.com
 description: >- 
   Portfolio website for João Rodrigo, a portuguese designer.
+
+# Criadores do site, mostrado no Home
+programmer: Flávio Ferreira
+designer: João Rodrigo Carvalho
+
+# Definições de cores
+color_config:
+  # Cor pre-definida
+  default_hue: 341
+  # Saturation e Lightness de todas as cores
+  saturation: 80
+  lightness: 70
+  # A cor que altera o background
+  bg_switch: 180
+
+# ============================================================================================================================== #
+
+# Dev stuff, não mexas
+
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  LDKid
 
-permalink: pretty
+# Developer email
+email: 97ferreira.flavio+jotaweb@gmail.com
 
-# Define the creators of the website.
-programmer: Flávio Ferreira
-designer: João Rodrigo Carvalho
+permalink: pretty
 
 include:
   - _pages

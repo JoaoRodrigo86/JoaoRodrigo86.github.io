@@ -9,10 +9,8 @@ const INPUT_LIST = [name, email, subject, text];
 
 // Now get the submit button.
 const SUBMIT_BUTTON = document.getElementById('contact-submit');
-console.log(INPUT_LIST)
 // Loop through all inputs and add the keyup event to them.
 INPUT_LIST.forEach(input => {
-    console.log(input)
     input.addEventListener('keyup', function (_) {
         SUBMIT_BUTTON.disabled = checkInputValidity();
     });

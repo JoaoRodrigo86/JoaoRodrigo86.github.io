@@ -26,10 +26,12 @@ function clickHue( hue, force = false ) {
     if ( !force && !holdingClick ) return;
     
     document.querySelector('.picked-hue').classList.remove('picked-hue');
-    document.body.style.setProperty('--accent-color', `hsl(${hue},97%,53%)`);
+    document.body.style.setProperty('--accent-color', `hsl(${hue},${SATURATION}%,${LIGHTNESS}%)`);
     document.getElementById(`hue-${hue}`).classList.add('picked-hue');
     sessionStorage.setItem('theme', hue);
     document.body.classList.remove('ee1');
+    
+    setBackground(hue)
 
     if ( hue === 30 ) {
         setTimeout( function () {

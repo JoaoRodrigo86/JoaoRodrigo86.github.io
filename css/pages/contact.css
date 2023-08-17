@@ -14,11 +14,9 @@
 }
 #link-block, #form-container {
     width: 100%;
-    margin-left: 20px;
 }
 #link-block h2 {
     font-size: 28px;
-    padding-left: 7px;
     margin: 0;
 }
 #link-block .link-container {

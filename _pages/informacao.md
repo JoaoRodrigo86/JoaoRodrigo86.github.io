@@ -41,7 +41,13 @@ social:
     - { nome: LinkedIn, img: /svgs/dichromatic/linkedin.svg, link: "https://www.linkedin.com/in/joão-rodrigo-carvalho-b3b398230/", external: true }
 ---
 
-Texto Pendente
+Sou Ilustrador e Designer, nascido na cidade do Porto.
+Com o curso de Ilustração e Produção Gráfica e licenciatura em Artes Visuais e Tecnologias Artísticas, ambos da Escola Superior de Educação do Porto (ESE), gosto de estar inserido em projetos diversificados, pois exigem um pensamento criativo e habilidade para resolver problemas.
+
+Tento abranger vários estilos nas coisas que vou criando, sendo adaptativo de acordo com o objetivo do trabalho. Para além disso, procuro aprender sempre mais, estar a par das tendências, e ter uma escuta ativa para ter bons resultados. 
+
+O desafio de ilustrar livros infanto-juvenis tem sido, sem dúvida, especial, na medida em que consigo dar vida às palavras, imagem à história e, ainda assim, dar espaço à imaginação de quem explora os livros. 
+Com 2 artigos e 3 livros publicados, estou pronto para novos desafios, que me permitam crescer cada vez mais a nível profissional.
 
 {% include informacao/download_cv.md %}
 

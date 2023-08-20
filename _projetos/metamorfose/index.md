@@ -2,7 +2,7 @@
     layout: project
     permalink: /projetos/metamorfose
     nome: E.Metamorfose
-    background: /assets/projects/metamorfose/capaem.jpg
+    background: /assets/projects/metamorfose/capaem1.jpg
     font_do_titulo: BROKEN thin demo
 ---
 
@@ -18,16 +18,19 @@ Surgiu em 2019 contando com a participação de vários autores.
 
 ## Apresentações e Lançamentos
 
+![Img 2](/assets/projects/metamorfose/aproiam.jpg)
+> Apresentação na FNAC do "O Inteligente Avô Manuel" /2023
+
 ![Img 1](/assets/projects/metamorfose/lankwy.jpg)
-> Lançamento do "O capa, o V dobrado e o I grego" 2022
+> Lançamento do "O capa, o V dobrado e o I grego" /2022
 
 ![Img 2](/assets/projects/metamorfose/aprekwy.jpg)
-> Apresentação na FNAC do "O capa, o V dobrado e o I grego" 2023
+> Apresentação na FNAC do "O capa, o V dobrado e o I grego" /2023
 
 ## Alguns Trabalhos
 
 ![Img 1](/assets/projects/metamorfose/em1.jpg)
-> E.Metamorfose Natal 2022
+> E.Metamorfose Natal /2022
 
 ![Img 2](/assets/projects/metamorfose/av11.jpg)
-> Aldeia do Vento Natal 2022
+> Aldeia do Vento Natal /2022

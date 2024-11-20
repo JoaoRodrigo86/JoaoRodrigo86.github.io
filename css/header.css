@@ -57,7 +57,7 @@ header > * {
 #header-title > * {
   /*  */
   font-size: inherit;
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 #header-title > a {

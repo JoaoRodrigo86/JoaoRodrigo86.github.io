@@ -2,7 +2,7 @@
     layout: project
     icon: /projects/metamorfose/ointeligenteavomanuel.svg
     nome: E.Metamorfose
-    background: /assets/projects/metamorfose/Capa_Metamorfose.jpg
+    background: /assets/projects/metamorfose/capa_metamorfose.jpg
     font_do_titulo: Amatic
 ---
 

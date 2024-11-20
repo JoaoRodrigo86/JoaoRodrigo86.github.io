@@ -2,7 +2,7 @@
     layout: project
     permalink: /projetos/metamorfose
     nome: E.Metamorfose
-    background: /assets/projects/metamorfose/Capa_Metamorfose.jpg
+    background: /assets/projects/metamorfose/capa_metamorfose.jpg
     font_do_titulo: BROKEN thin demo
 ---
 

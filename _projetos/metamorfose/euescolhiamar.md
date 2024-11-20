@@ -2,7 +2,7 @@
     layout: project
     icon: /projects/metamorfose/euescolhiamar.svg
     nome: E.Metamorfose
-    background: /assets/projects/metamorfose/Capa_Metamorfose.jpg
+    background: /assets/projects/metamorfose/capa_metamorfose.jpg
 ---
 
 # Eu, escolhi Amar!

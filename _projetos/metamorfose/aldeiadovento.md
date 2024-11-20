@@ -2,7 +2,7 @@
     layout: project
     icon: /projects/metamorfose/A-46.svg
     nome: E.Metamorfose
-    background: /assets/projects/metamorfose/capaem1.jpg
+    background: /assets/projects/metamorfose/Capa_Metamorfose.jpg
     font_do_titulo: Partyletplain
 ---
 

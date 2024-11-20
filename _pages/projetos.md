@@ -1,6 +1,7 @@
 ---
 layout: projects
 projectos:
+    - { nome: Divergencia, img: /projects/divergencia/divergencia.svg }
     - { nome: Metamorfose, img: /projects/metamorfose/em.svg }
     - { nome: Hallo, img: /projects/hallo/hallo.svg }
     - { nome: Unknown, img: /projects/unknown.svg }

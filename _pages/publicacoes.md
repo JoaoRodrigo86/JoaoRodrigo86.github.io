@@ -1,7 +1,7 @@
 ---
     layout: trabalho
-    permalink: publicacoes
-    title: Publicações
+    permalink: producoes
+    title: Produções
     icon: /svgs/pub.svg
 ---
 

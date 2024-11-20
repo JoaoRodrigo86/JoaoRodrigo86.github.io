@@ -36,6 +36,7 @@ header > * {
 
 #header-title {
   /*  */
+  height: 6em;
   font-size: 50px;
   /* text-align: left; */
   /* padding-left: 5px; */
@@ -47,14 +48,29 @@ header > * {
   top: 30px;
   right: 5px; */
   vertical-align: middle;
+  cursor: pointer;
+}
+#header-title > img:hover {
+  filter: invert();
 }
 
 #header-title > * {
   /*  */
   font-size: inherit;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
+#header-title > a {
+  cursor: pointer;
+}
+#header-title > a > svg {
+  height: 2em;
+  vertical-align: middle;
+  display: inline-block;
+}
+#header-title > a:hover {
+  --icon-background-color: var(--background-color);
+}
 
 #header-extra-info {
   display: flex;
@@ -83,12 +99,17 @@ header > * {
   }
   #header-title {
     font-size: 60px;
+    height: auto;
   }
   #header-extra-info {
     display: none;
   }
   #header-title > img {
     display: none;
+  }
+  #header-title > a > svg {
+    height: auto;
+    display: block;
   }
   nav {
     padding-bottom: 7vh;
